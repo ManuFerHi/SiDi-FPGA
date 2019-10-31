@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Oct 27 17:46:11 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : menu
+Top-level Entity Name : MENU
+Family : Cyclone IV E
+Device : EP4CE22F17C8
+Timing Models : Final
+Total logic elements : 1,402 / 22,320 ( 6 % )
+    Total combinational functions : 1,366 / 22,320 ( 6 % )
+    Dedicated logic registers : 321 / 22,320 ( 1 % )
+Total registers : 358
+Total pins : 66 / 154 ( 43 % )
+Total virtual pins : 0
+Total memory bits : 53,248 / 608,256 ( 9 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

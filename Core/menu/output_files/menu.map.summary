@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 27 17:45:56 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : menu
+Top-level Entity Name : MENU
+Family : Cyclone IV E
+Total logic elements : 1,507
+    Total combinational functions : 1,366
+    Dedicated logic registers : 359
+Total registers : 359
+Total pins : 66
+Total virtual pins : 0
+Total memory bits : 53,248
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

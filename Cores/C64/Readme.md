@@ -1,5 +1,5 @@
 </a>FPGA64</h3>
-Instructions - Put *.rbf core in to yor SD card root directory.
+Instructions - Put *.rbf core in to your SD card root directory.
 <p>This is the port of the FPGA64 C64 core by Peter Wendrich distributed with
 his kind permission. The later ports are based on Dar FPGAs work and includes
 a c1541 floppy implementation.</p>

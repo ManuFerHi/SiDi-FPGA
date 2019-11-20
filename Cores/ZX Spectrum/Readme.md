@@ -1,5 +1,7 @@
 # ZX Spectrum 128K for SiDi
 
+Port from Mist, for source code visit https://github.com/sorgelig/ZX_Spectrum-128K_MIST
+
 
 
 ### Features:

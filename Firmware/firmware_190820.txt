@@ -1,3 +1,0 @@
-firmware_190820
-===============
-- Minimig fixes from retrofun (missed in the previous release)

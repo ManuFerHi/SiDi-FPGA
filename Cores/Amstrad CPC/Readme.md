@@ -1,7 +1,8 @@
 
 # Amstrad CPC 6128 for MiST and SiDi
 This core has been started as a port of [CoreAmstrad by Renaud Hélias](https://github.com/renaudhelias/CoreAmstrad) but every module has been either rewritten or replaced so, now it can be treated as a completely new core.
-For source data visit https://github.com/sorgelig/Amstrad_MiST
+
+For source code visit https://github.com/sorgelig/Amstrad_MiST
 
 ## Features
 * Precise CPU timings including proper contention model.

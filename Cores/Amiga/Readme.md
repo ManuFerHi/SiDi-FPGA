@@ -44,7 +44,7 @@ You can move to other pages of settings by pressing the right arrow key:
   * **Load/Save config**: store up to 5 different configuration (and define startup config)
   * **Chipset settings**: configure CPU and Amiga type (ECS/AGA)
   * **Memory settings**: configure RAM and ROM file
-  * **Video settngs**: scanline and smoothing options
+  * **Video settings**: scanline and smoothing options
 
 <img src='https://raw.githubusercontent.com/wiki/mist-devel/mist-board/img_docs/amiga_osd3.jpg' title='OSD Menu 3' /> <img src='https://raw.githubusercontent.com/wiki/mist-devel/mist-board/img_docs/amiga_osd4.jpg' title='OSD Menu 3' />
 

@@ -28,9 +28,7 @@ Usage - Copy MSX.VHD and core.rbf into sd root.
 ---
 
 
-# OSD Menu #
 
-(tba)
 
 
 ## Notes ##

@@ -1,6 +1,6 @@
-**SNES for SiDi
+# SNES for SiDi
 
-**Features 
+**Features*
    -Cycle accurate SNES replica.
    -Supports LoROM, HiROM, ExHiROM.
    -Supports additional chips: DSP-3,OBC1, ST010.

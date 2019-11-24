@@ -1,4 +1,4 @@
-</a>FPGA64 on MIST</h3>
+## FPGA64 on Mist / SiDi
 <p>This is the port of the FPGA64 C64 core by Peter Wendrich distributed with
 his kind permission. The later ports are based on Dar FPGAs work and includes
 a c1541 floppy implementation.</p>

@@ -4,7 +4,6 @@ This page has operating instructions for the NES/Famicom core.
 
 
 # Links #
-  * [Core binaries](https://github.com/mist-devel/mist-binaries/tree/master/cores/nes)
   * [FPGANES](http://fpganes.blogspot.de/)
   * [Original source code](https://github.com/strigeus/fpganes)
 

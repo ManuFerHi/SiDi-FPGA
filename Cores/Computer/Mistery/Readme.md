@@ -1,4 +1,4 @@
-# MiSTery - An Atari ST/STe core for the MIST and SiDi(https://github.com/mist-devel/mist-board/wiki)
+# MiSTery - An Atari ST/STe core for the MIST/SiDi
 
 
 ## Features:

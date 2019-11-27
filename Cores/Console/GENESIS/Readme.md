@@ -18,7 +18,6 @@ By now the core runs most games perfectly incl. the Titan Overdrive demo. Some g
 special and undocumented hardware features show visual or accousic artifacts or may not
 run at all.
 
-![Sonic on TV](sonic_tv.jpg)
 
 ## Installing the core
 

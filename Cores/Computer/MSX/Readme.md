@@ -10,8 +10,6 @@ Sound YM2149(PSG), YM2419(OPLL), SCC.
 Various sound and memory expansions through virtual cartridges.
 Turbo modes for CPU.
 Mouse.
-Joystick.
-Real time clock.
 SD card support <4GB (SDSC) and >4GB (SDHC/SDXC).
 
 

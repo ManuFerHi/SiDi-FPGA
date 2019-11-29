@@ -3,6 +3,18 @@
 This page has operating instructions for the MSX core.
 This core is based on OneChipMSX.
 
+Features:
+
+MSX2/Plus/3.
+Sound YM2149(PSG), YM2419(OPLL), SCC.
+Various sound and memory expansions through virtual cartridges.
+Turbo modes for CPU.
+Mouse.
+Joystick.
+Real time clock.
+SD card support <4GB (SDSC) and >4GB (SDHC/SDXC).
+
+
 
 # Installation #
 

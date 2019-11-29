@@ -1,4 +1,4 @@
-### MSX core for Mist / SiDi
+### MSX2+ core for Mist / SiDi
 
 This page has operating instructions for the MSX core.
 This core is based on OneChipMSX.

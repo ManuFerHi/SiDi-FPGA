@@ -10,9 +10,9 @@ Wavs compilation > https://mega.nz/#!Jo9lwA5Q!lRQHFT8qzoomnJwVAMxEgk19SSoU5jgLtB
 
 ![screenshot](http://www.retrowiki.es/download/file.php?id=200018539)
 
-![screenshot]http://www.retrowiki.es/download/file.php?id=200018537)
+![screenshot](http://www.retrowiki.es/download/file.php?id=200018537)
 
-![screenshot]http://www.retrowiki.es/download/file.php?id=200018536)
+![screenshot](http://www.retrowiki.es/download/file.php?id=200018536)
 
 
 

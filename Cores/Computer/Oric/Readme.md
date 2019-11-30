@@ -8,4 +8,4 @@ OSD disabled.
 
 Wavs compilation > https://mega.nz/#!Jo9lwA5Q!lRQHFT8qzoomnJwVAMxEgk19SSoU5jgLtBKhb41wf28
 
-[img]http://www.retrowiki.es/download/file.php?id=200018539[/img]
+

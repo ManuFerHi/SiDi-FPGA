@@ -5,6 +5,7 @@
 
 - Cycle accurate STe GLUE+MMU combo (re-created from the [original schematics](https://www.chzsoft.de/asic-web/))
 - Cycle accurate [FX68K CPU core](https://github.com/ijor/fx68k)
+- Cycle accurate Blitter offered by Jorge Cwik
 - Mostly cycle accurate shifter based on [schematics made from reverse engineering](http://www.atari-forum.com/viewtopic.php?t=29658)
 - MegaSTe 16 MHz CPU mode
 - RAM size up to 14MB
@@ -16,7 +17,9 @@
 - Real MIDI input/output using MiST's UART pins
 - Serial/parallel port redirect to USB
 - Gauntlet type 4 joystick interface support
+- STe controller port support
 - Optional scandoubled/YPbPr video output
+
 
 ## Usage:
 

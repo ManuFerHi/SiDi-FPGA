@@ -1,4 +1,4 @@
-Sinclair QL core for the MIST board
+Sinclair QL core for the MIST / SiDi board
 ===================================
 
 This core needs a QL rom image on SD card named ql.rom in the SD cards
@@ -27,36 +27,4 @@ in the [examples](https://github.com/mist-devel/mist-binaries/raw/master/cores/q
 If a matching [ql.rom](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/minerva+qlsd_ql.rom) is being used the built-in [QL-SD](http://www.dilwyn.me.uk/qlsd/index.html) allows to directly access a huge image file stored
 on SD card.
 
-History
--------
 
-* [ql_150820.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/ql_150820.rbf)
-  - QL-SD support
-
-* [ql_150819.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150819.rbf)
-  - Fixed rtc speed
-  - MDV tape direction configurable
-  - QIMI compatible mouse
-
-* [ql_150818.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150818.rbf)
-  - Key mapping fixed
-  - Joysticks connected
-  - IPC IPL connected
-  - PC keyboard shortcuts
-
-* [ql_150817.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150817.rbf)
-  - T48 core used to implement the IPC using the original firmware
-  - Full IPC compatibility incl. audio
-
-* [ql_150813.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150813.rbf)
-  - Microdrive performance boost by playback of microdrive sectors in decending order
-  - Code cleanup
-
-* [ql_150811.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150811.rbf)
-  - Adjusted pixel clock to 10.5Mhz
-  - Fixed NTSC/Microdrive collision
-  - Slower CPU (still too fast)
-  - Microdrive selection fix
-  - Code cleanup
-
-* [ql_150810.rbf](https://github.com/mist-devel/mist-binaries/raw/master/cores/ql/old/ql_150810.rbf) Initial version

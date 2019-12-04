@@ -2,12 +2,17 @@
 
  ## Cores
 
-  ### Ghost and goblins
-  ### 1942
-  ### 1943
-  ### Commando
-  ### Gun Smoke
-  ### Vulgus
+  Ghost and goblins
+  
+  1942
+  
+  1943
+  
+  Commando
+  
+  Gun Smoke
+  
+  Vulgus
 
 Instructions - Put the *.rbf file and *.rom file into sd root.
 

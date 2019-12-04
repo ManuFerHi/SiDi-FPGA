@@ -1,11 +1,13 @@
-### Jotego arcade cores
+# Jotego arcade cores
 
-  *Ghost and goblins
-  *1942
-  *1943
-  *Commando
-  *Gun Smoke
-  *Vulgus
+ ## Cores
+
+  -Ghost and goblins
+  -1942
+  -1943
+  -Commando
+  -Gun Smoke
+  -Vulgus
 
 Instructions - Put the *.rbf file and *.rom file into sd root.
 

@@ -22,3 +22,5 @@ Source code.
 https://github.com/jotego/jt_gng
 
 If you have corrupt graphics on ghost and goblins put gng.cgf file into sd root.
+
+Thanks to Jotego for the great work.

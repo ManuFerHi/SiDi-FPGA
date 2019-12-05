@@ -1,4 +1,4 @@
-  PC-engine / SuperGrafx for MIST / SiDi
+  PC-Engine / SuperGrafx for MIST / SiDi
   ================
   Instructions - Put .rbf file into SD.
 

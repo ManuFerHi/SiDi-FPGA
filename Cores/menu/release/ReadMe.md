@@ -4,4 +4,4 @@ Put [this core](https://github.com/ManuFerHi/SiDi-FPGA/tree/master/Core/menu/rel
 
 Original core from Sorgelig.
 
-![screenshot](menu.png)
+![screenshot](../menu.png)

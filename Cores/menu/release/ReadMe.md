@@ -6,4 +6,4 @@ Original core from Sorgelig.
 
 ![screenshot](../menu.png)
 
-Also an alternative menu with animations background.
+Also an alternative [menu](https://github.com/ManuFerHi/SiDi-FPGA/blob/master/Cores/menu/release/alternative_menu.rar) with animations background.

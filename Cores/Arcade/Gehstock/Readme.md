@@ -5,3 +5,6 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
 
 ### Available cores
    * Bombjack
+   * Galaga hardware
+      * Galaga
+      * Xevious

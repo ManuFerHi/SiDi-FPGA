@@ -11,6 +11,8 @@ Various sound and memory expansions through virtual cartridges.
 Turbo modes for CPU.
 Mouse.
 SD card support <4GB (SDSC) and >4GB (SDHC/SDXC).
+English and Spanish layouts keyboards.
+Audio input for load tapes enabled.
 
 
 

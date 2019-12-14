@@ -8,3 +8,8 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
    * Galaga hardware
       * Galaga
       * Xevious
+   * Phoenix hardware
+      * Capitol
+      * Phoenix
+      * Pleiads
+      * Survival

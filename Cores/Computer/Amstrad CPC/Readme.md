@@ -1,5 +1,5 @@
 
-# Amstrad CPC 6128 for MiST and MiSTer
+# Amstrad CPC 6128 for MiSTica and MiSTer
 This core has been started as a port of [CoreAmstrad by Renaud Hélias](https://github.com/renaudhelias/CoreAmstrad) but every module has been either rewritten or replaced so, now it can be treated as a completely new core.
 
 ## Features

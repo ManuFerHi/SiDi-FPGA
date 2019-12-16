@@ -13,3 +13,9 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
       * Phoenix
       * Pleiads
       * Survival
+   * Bagman hardware
+      * Bagman
+      * SuperBagman
+      * Botanic
+      * Pickin
+      * Squash

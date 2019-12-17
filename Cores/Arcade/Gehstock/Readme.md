@@ -19,3 +19,24 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
       * Botanic
       * Pickin
       * Squash
+   * Pacman hardware
+      * Alibaba
+      * Birdiy
+      * CrushRoller
+      * DreamShopper
+      * Eeekk
+      * Eggor
+      * Eyes
+      * Gorkans
+      * LizardWizard
+      * ManiacMiner
+      * MrTNT
+      * MSPacman
+      * Pacman
+      * PacmanPlus
+      * Pengo
+      * Ponpoko
+      * SuperGlob
+      * VanVanCar
+      * Woodpecker
+      

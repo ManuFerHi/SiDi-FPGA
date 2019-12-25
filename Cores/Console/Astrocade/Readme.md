@@ -1,6 +1,7 @@
 This is the MiSTica / SiDi port of a simulation model of Bally Astrocade hardware done by MikeJ (www.fpgaarcade.com)
 
 Original source: https://svn.pacedev.net/repos/pace/sw/src/platform/astrocade/
+
 MiST source: https://github.com/wsoltys/mist-cores/tree/master/Astrocade
 
 Key mapping:

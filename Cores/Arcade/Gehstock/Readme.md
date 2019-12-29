@@ -40,18 +40,18 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
       * SuperGlob
       * VanVanCar
       * Woodpecker
-    * Berzerk Hardware
+   * Berzerk Hardware
       * Berzerk
       * Frenzy
       * MoonWar
-    * Atari BW Raster Hardware
+   * Atari BW Raster Hardware
       * Canyon Bomber
       * Dominos
       * Sprint1
       * Sprint2
       * SuperBreakOut
       * Ultratank
-    * Atari Centipede Hardware
+   * Atari Centipede Hardware
       * Centipede
     
       

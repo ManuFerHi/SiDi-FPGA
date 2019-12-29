@@ -5,6 +5,7 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
 
 ### Available cores
    * Bombjack
+   * Tetris
    * Galaga hardware
       * Galaga
       * Xevious
@@ -39,4 +40,18 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
       * SuperGlob
       * VanVanCar
       * Woodpecker
+    * Berzerk Hardware
+      * Berzerk
+      * Frenzy
+      * MoonWar
+    * Atari BW Raster Hardware
+      * Canyon Bomber
+      * Dominos
+      * Sprint1
+      * Sprint2
+      * SuperBreakOut
+      * Ultratank
+    * Atari Centipede Hardware
+      * Centipede
+    
       

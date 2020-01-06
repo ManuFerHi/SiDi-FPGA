@@ -1,4 +1,4 @@
-Port of the A2601 FPGA implementation for the MiST
+Port of the A2601 FPGA implementation for the MiSTica / SiDi
 ---------------------------------------------------------------------------------
 
 Buttons:

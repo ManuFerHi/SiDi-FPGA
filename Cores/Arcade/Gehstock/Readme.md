@@ -21,5 +21,11 @@ For source code, visit Gehstock repository > https://github.com/Gehstock/Mist_FP
       * Canyon Bomber / Dominos / Sprint1 / Sprint2 / SuperBreakOut / Ultratank
    * Atari Centipede Hardware
       * Centipede
+   * Galaxian Hardware
+      * Azurian attack / Black Hole / Catacomb / Chewing Gum / Devil Fish / Galaxian / King Ballon / Moon Cresta / MrDo Nightmare / Omega / Orbitron / Pisces / Triple Draw Poker / Uniwars / Victory / War of the Bugs / ZigZag
+   * Data East Brger Time Hardware
+      * Burguer time / Burnin Rubber
+   * Crazy Climber Hardware
+      * Crazy Climber / Crazy Kong / River Patrol / Silverland
     
       

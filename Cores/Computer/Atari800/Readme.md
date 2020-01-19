@@ -7,9 +7,6 @@ Atari800 core for MiSTica /SiDi by Mark Watson
 
 Quickstart:
 - Use the latest firmware.
-- Choose your core, VGA for VGA monitor, RGB for 15khz RGB. There is no
-  mist menu or mist.ini support.
-- Rename atari800_XXX.rbf to core.rbf and put it into your SD cards root.
 - Unzip the roms.zip into the root of the SD card so you have a structure
   atari800/rom and atari800/user.
 - Make sure atarixl.rom and ataribas.rom are under atari800/rom

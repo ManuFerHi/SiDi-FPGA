@@ -8,4 +8,4 @@ The source code is available from his [github repository](https://github.com/seb
 Usage
 -----
 
-Copy the latest core version onto a SD card and rename it to ```core.rbf```.
+Copy the latest core version onto a SD card.

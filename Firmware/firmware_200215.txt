@@ -1,0 +1,30 @@
+firmware_200215
+===============
+- Fix ROM= entry handling in mist.ini
+
+firmware_200214
+===============
+- Support for NAME in ARC files (core name override)
+- ROM loading from the same directory as the RBF
+- Analogue joystick range scaling and dead zone management (rampa069)
+
+firmware_200208
+===============
+- Support Arduino based keyboards
+- Add csync_disable option to mist.ini
+- Fix ini_parser for mist.ini files > 1024 bytes
+- Introduce ARC metadata files (mostly for arcade usage)
+
+firmware_191129
+===============
+- Direct SD->FPGA transfer for MiSTery ACSI (core update needed)
+- Direct SD->FPGA transfer for other cores' ROM upload (core updates needed)
+- Some minimig and OSD related fixes from Retrofun
+- More complete input device test OSD
+
+firmware_191102
+===============
+- Unused cart area is pulled up in ST cores
+- Multiple profiles support for ST cores
+- Archimedes IDE interface support
+- Changed 24MB Fast RAM option to 8MB in Minimig's 68000 mode

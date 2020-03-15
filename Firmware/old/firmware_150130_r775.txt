@@ -1,0 +1,5 @@
+firmware_150130_r775
+====================
+
+This file has been revoked since it had a severe bug in the self-update
+routines which reliably prevented any further updates from that version.

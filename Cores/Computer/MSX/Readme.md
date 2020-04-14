@@ -21,8 +21,6 @@ Audio input for load tapes enabled.
 The core requires an SD card formatted in FAT16 to work properly. You will also need to provide a few system files and utilities.
 You can also use a FAT32 SD card with a MSX.VHD hardfile.
 
-MSX1PACK3.0 from desUBIKado and Invertigo
-Download VHD hardfile here > https://mega.nz/#!o410UaZS!35KcilvtKtBN3qMF0PJtoMwO8mo-e8VChExFDDL1vD4
 
 Instructions - Use FAT32 sdcard, put *.rbf and MSX.VHD into sd root.
 

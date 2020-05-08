@@ -25,7 +25,7 @@
 
 Put the core.rbf and the TOS as tos.img to the SD-Card. TOS/hard disc/floppy images are selectable in the OSD (F12).
 
-The core needs at least firmware version 20190819.
+Please use last firmware release.
 
 ## Current issues/limitations:
 

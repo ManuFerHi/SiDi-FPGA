@@ -5,10 +5,11 @@
 Features
 Cycle accurate SNES replica.
 Supports LoROM, HiROM, ExHiROM.
+Support SMC files.
 Supports additional chips: DSP-3,OBC1, ST010.
 Cheat engine.
 Save/Load Backup RAM.
 Supports mouse.
-Light gun support via mouse.
+Light gun support via mouse. (200605 SiDi version no support)
 SuperFX Turbo and CPU Turbo.
 </ul>

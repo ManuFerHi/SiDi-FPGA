@@ -1,5 +1,7 @@
 # ZX Spectrum 128K for MIST /SiDi
 
+Latest stable version for SiDi is 191120, later versions have general sound implemented but the sound is not ok, use these versions just to test GS because the core is not stable.
+
 Some verilog models from Till Harbaum [Spectrum](https://github.com/mist-devel/mist-board/tree/master/cores/spectrum) core were used in this project.
 
 ### Features:

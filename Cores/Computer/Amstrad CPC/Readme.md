@@ -4,6 +4,7 @@ This core has been started as a port of [CoreAmstrad by Renaud Hélias](https://
 
 ## Features
 * Precise CPU timings including proper contention model.
+* Cycle-exact Gate Array, created from reverse engineered decapped original Amstrad 40010 chip.
 * Precise CRTC model supporting many tricks of Types 1 and 0.
 * 2 disk drives
 * Disk write support.

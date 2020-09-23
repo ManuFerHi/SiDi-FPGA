@@ -4,6 +4,8 @@ Video Technology Laser 350/500/700 for the MiST / MiSTica / SiDi FPGA by Antonin
 
 Usage - Put *.rbf and ROM into your SD.
 
+Source - https://github.com/nippur72/Laser500_MiST
+
 # CHANGELOG
 
 - 15-Jun-2020

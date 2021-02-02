@@ -8,7 +8,7 @@ Atari800 core for MiSTica /SiDi by Mark Watson
 - New version with mist firware support, thanks to Slingshot.
 - Souerce - https://github.com/gyurco/Atari800XL
 Quickstart:
-- Put Atari800XL.ROM into sd root.
+- Put A800XL.ROM into sd root.
 - Some games require the Basic ROM to be disabled when running, to do this
   press F8 whilst a game is loading.
 - Start a games with F6(Start).

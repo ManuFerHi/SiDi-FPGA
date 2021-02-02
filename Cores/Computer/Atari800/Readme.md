@@ -6,7 +6,7 @@ Atari800 core for MiSTica /SiDi by Mark Watson
 - Thread - http://atariage.com/forums/topic/213827-potential-new-hardware/ 
 
 - New version with mist firware support, thanks to Slingshot.
-- Souerce - https://github.com/gyurco/Atari800XL
+- Source - https://github.com/gyurco/Atari800XL
 Quickstart:
 - Put A800XL.ROM into sd root.
 - Some games require the Basic ROM to be disabled when running, to do this

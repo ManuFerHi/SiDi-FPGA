@@ -1,72 +1,64 @@
-# Overview #
+# NES core for MiST
 
-This page has operating instructions for the NES/Famicom core.
+This is a port of Luddes NES core to the MIST. See his FPGANES blog at
+<http://fpganes.blogspot.de> for details. The original source code can
+be found at <https://github.com/strigeus/fpganes>
 
+You need a USB game pad with at least 2 buttons to run NES games. With
+4 buttons SELECT and START will also be mapped. For pads with two buttons
+START and SELECT can also be reached from the OSD.
 
-# Links #
-  * [FPGANES](http://fpganes.blogspot.de/)
-  * [Original source code](https://github.com/strigeus/fpganes)
+## 15 khz support (TV)
+Create a mist.ini file with at least the following line:
 
+```
+[mist]
+scandoubler_disable=1
+```
 
-# Installation #
+## Keyboard support in NES
 
-Copy the `*`.rbf file at the root of the SD card.
-You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
+* 1 - switch to joystick A
+* 2 - switch to joystick B
+* Up,Down,Left,Right
+* Esc - start
+* Tab - select
+* Space - fire 1
+* Left Alt - fire 2
 
-Roms can be copied anywhere on the SD card and are selected via the OSD menu.
-If you have many files you might want to store them into alphabetized sub-folders to access them more quickly.
+## [Powerpad](https://en.wikipedia.org/wiki/Power_Pad) emulation support
 
+The powerpad/Family Trainer/Family Fun Fitness accessory is emulated through
+the keyboard.
 
----
+Side A:
+*    O  O    -   T R
+* O  O  O  O - H G F D
+*    O  O    -   B V   
 
+Side B:
+* 1  2  3  4 - E R T Y
+* 5  6  7  8 - D F G H
+* 9 10 11 12 - C V B N 
 
-# Controls #
+## FDS image support
 
-Controls:
-  * Use one or two gamepads
-  * Buttons 3 and 4 map to Select and Start.
-  * If you gamepad has only 2 buttons, you can use Select and Start from OSD menu
-  * F12 to open OSD
+Famicom Disk System images are supported through Loopy's FDS mapper. It needs
+a modified FDS BIOS, can be found in the [NES PowerPak](https://www.retrousb.com/product_info.php?products_id=34).
+Get FDSBIOS.BIN from the archive, and load using the OSD Load FDS BIOS option before
+loading an FDS file.
 
-MiST front panel buttons:
-  1. (left) Reset MiST to default core
-  1. (middle) Open OSD menu
-  1. (right) Reset NES with current ROM
+If a game requires a disk swap, hold down the PgUp key for a while. If the automatic
+mechanism determining the requested disk side doesn't work, select it using the
+OSD Disk Side option.
 
-# OSD Menu #
+## NSF music files
 
-The core will start with a blank screen. Press F12 to enter the OSD menu:
+They're played using Loopy's NSF player. Just load the NSF file and enjoy.
 
-<img src='https://raw.githubusercontent.com/wiki/mist-devel/mist-board/img_docs/nes_osd1.jpg' title='OSD Menu - Page 1' width='320px' />
+## Backup RAM support / FDS image save
 
-  * **Load `*`.NES**: load a ROM from the SD card
-  * **HQ2X**: active hq2x image enhancement, smoothing pixels (good for large screens)
-  * **Start**: push the Start button
-  * **Select**: push the Select button
-  * **Reset**: restart the NES core
-
-The second page contains some general options:
-  * **Firmware & core**: allows to switch to another core or upgrade the MiST firmware
-  * **Save settings**: save the current settins to the SD card for next startup
-
-In the rom selection screen, m can select a rom with Enter.
-
-
-## Notes ##
-
-  * Video mode is 720x481p
-
-
----
-
-
-# Compatibility #
-
-This table shows the memory mappers that the core supports; a large amount of commercial ROMs will run (~87%).
-
-One major limitation is that we cannot save to the SD card.
-
-<img src='https://raw.githubusercontent.com/wiki/mist-devel/mist-board/img_docs/nes_mappers.jpg' title='mapper supprot' />
-
-
----
+* Create an empty SAV file on the SD-Card to store the backup RAM data. The size of this file should be 8 kbytes for
+ordinary cart saves, and the size of the .FDS file (usually ~128 kbytes) for disk saves.
+* After loading the NES/FDS file, choose the "Mount SRAM" option from the OSD, and select the .SAV file. The yellow LED will lit.
+* You can load/save the backup RAM contents from/to the SD Card via the "Load SRAM" and the "Save SRAM" OSD items.

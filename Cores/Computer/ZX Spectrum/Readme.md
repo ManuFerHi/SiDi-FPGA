@@ -1,6 +1,4 @@
-# ZX Spectrum 128K for MIST /SiDi
-
-Latest stable version for SiDi is 191120, later versions have general sound implemented but the sound is not ok, use these versions just to test GS because the core is not stable.
+# ZX Spectrum 128K for Mistica and SiDi
 
 Some verilog models from Till Harbaum [Spectrum](https://github.com/mist-devel/mist-board/tree/master/cores/spectrum) core were used in this project.
 
@@ -18,15 +16,18 @@ Some verilog models from Till Harbaum [Spectrum](https://github.com/mist-devel/m
 - Memory snapshot save/load in +D and Multiface.
 - Native TAP with turbo loading. Fast loading for TAP, CSW and TZX.
 - Kempston Mouse and Joystick.
-- Sinclair Joystick I
-- Turbo-Sound interface (dual YM2149 sound chips)
-- Audio in from real [tape device](http://www.atari-forum.com/viewtopic.php?p=298401#p298401)
+- Sinclair Joystick 1,2.
+- Cursor joystick.
+- DivMMC and ZXMMC compatible SD Card interface, optionally with 8K ROM and 256K RAM (for ESXDOS use).
+- Turbo-Sound interface (dual YM2149 sound chips).
+- General Sound Interface.
+- Audio in from real [tape device](http://www.atari-forum.com/viewtopic.php?p=298401#p298401).
 
 **Core requires MiST firmware update to build 2016/06/26 or newer!**
 
 ### Installation:
 Copy the *.rbf file at the root of the SD card. You can rename the file to core.rbf if you want the MiST to load it automatically at startup.
-Copy [spectrum.rom](https://github.com/sorgelig/ZX_Spectrum-128K_MIST/tree/master/releases) file to the root of SD card.
+Copy [spectrum.rom](https://github.com/mist-devel/mist-binaries/tree/master/cores/spectrum/spectrum.rom) file to the root of SD card.
 **Note:** always update spectrum.rom together with core to make sure you're using compatible ROM version. ROM is not always compatible with all releases (but always compatible with latest release), thus you need to keep the ROM if you want to use older version of core.
 
 For PAL mode (RGBS output) you need to put [mist.ini](https://github.com/sorgelig/ZX_Spectrum-128K_MIST/tree/master/releases/mist.ini) file to the root of SD card. Set the option **scandoubler_disable** for desired video output.
@@ -42,7 +43,7 @@ then issue **RANDOMIZE USR 15616**. Use command **RETURN** to leave TR-DOS.
 
 **DSK** +3 disk format. In none- +3 modes, +D tries to mount it, however +3 disk images are not compatible with G+DOS.
 The original +3 disk drive is a 170K single-sided double-density drive, but this core supports 720K double-sided double-density images, too.
-An empty [DSDD image](https://github.com/sorgelig/ZX_Spectrum-128K_MIST/tree/master/releases/dsdd720k.dsk.gz) is great for saving from Multiface.
+An empty [DSDD image](https://github.com/mist-devel/mist-binaries/tree/master/cores/spectrum/dsdd720k.dsk.gz) is great for saving from Multiface.
 ***Note:*** in +3 mode, both the Beta and the +3 disk drive are supported, but only one image can be mounted, so both cannot be used at the same time.
 
 **TAP** is simple tape dump format. It is possible to use normal and **turbo** loading (only if application uses standard loading routines from ROM). To load in turbo mode, you need to choose TAP file in OSD **first** and then start to load app through menu (128K) or by command **LOAD ""** (48K, 128K). To load TAP file in normal mode through internal AUDIO IN loop, you need to start loading through menu or command **first** and then choose TAP file though OSD. If application uses non-standard loader, then TAP file will be played in normal mode automatically. Thus it's safe to always choose the turbo mode. Some applications are split into several parts inside one TAP file. For example DEMO apps where each part is loaded after finish of previous part, or games loading levels by requests. The core pauses the TAP playback after each code part (flag=#255). If application uses standard loader from ROM, then everything will be handled automatically and unnoticeable. If app uses non-standard loader, then there is no way to detect the loading. In this case you need to press **F1 key** to continue/pause TAP playback. Do not press F1 key while data is loading (or you will have to reset and start from beginning). To help operate with TAP (for non-standard loaders) there is special yellow LED signaling:
@@ -100,15 +101,25 @@ You will be able to use bare Multiface ROM by simple subsequent presses of **RSh
 **Note:** Multiface 128 expose its port, thus if game has protection against Multiface, it won't work, unless you press (o)ff before you exit from the Multiface menu. Thus using +D snapshot is prefered.
 When using the Spectrum +2A/3 mode, the Multiface 3 is supported. There's no Genie for the +3, but there are useful toolkit routines in the stock ROM.
 
-### ROM Format:
+### MMC Cards:
+DivMMC or ZXMMC compatible SD Card interfaces can be enabled in the OSD. DivMMC optionally supports 8K built in ROM and 256K RAM. The default **spectrum.rom** file contains ESXDOS 0.8.8 preloaded
+into the ROM. This is only DIVMMC.BIN, you'll need /BIN /SYS and /TMP also on the default SD Card (or in a **spectrum.vhd** file). Multiface and PlusD NMI menus are disabled when
+ESXDOS is enabled, since the built-in Beta Disk Interface and PlusD interface also won't work. If a tape file is loaded via the OSD (indicated by the yellow LED), the DIVMMC tape hooks are disbled.
 
-You can create your own ***spectrum.rom***, for example to replace +3 ROMs with +3e.
-The format is: Boot (GLUK) + TRDOS + 128 ROM0 + 128 ROM1 + +3 ROM0/1/2/3 + PlusD + MF128 + MF3 + 48K ROM. Each part is 16k.
+### ROM Format:
+You can create your own **spectrum.rom**, for example to replace +3 ROMs with +3e.
+The format is: ESXMMC.BIN(2x) + TRDOS + 128 ROM0 + 128 ROM1 + +3 ROM0/1/2/3 + PlusD + MF128 + MF3 + 48K ROM + GS(low) + GS(high). Each part is 16k.
 
 ### Special Keys:
 - Ctrl+F11 - warm reset
-- Alt+F11 - cold reset will disk unload
-- Ctrl+Alt+F11 - reset to ROM0 menu
-- F11 - enter +D snapshot menu (or ROM0 menu if IMG/MGT not mounted)
-- RShift+F11 - enter Multiface 128 menu
+- Alt+F11 - cold reset
+- F11 - enter +D snapshot menu (if IMG/MGT is mounted), enter ESXDOS NMI menu (if ESXDOS is enabled)
+- RShift+F11 - enter Multiface 128 menu (or ESXDOS NMI menu if ESXDOS is enabled)
 - F12 - OSD menu
+
+### Download precompiled binaries and system ROMs:
+Go to [mist-binaries](https://github.com/mist-devel/mist-binaries/tree/master/cores/spectrum).
+
+### Source code
+- https://github.com/sorgelig/ZX_Spectrum-128K_MIST
+- https://github.com/gyurco/ZX_Spectrum-128K_MIST

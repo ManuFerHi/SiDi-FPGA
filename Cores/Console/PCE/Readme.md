@@ -9,6 +9,7 @@ were no efforts to make them work. Fixing them would be highly appreciated.
 
 Features:
 
+- CD support.
 - Standard MiST OSD and ARM ROM downloading
 - SuperGrafx support
 - 384K, 768K and SF2 special ROM mapper support

@@ -1,0 +1,226 @@
+firmware_220329
+===============
+- Cubase dongle support in the Atari ST menu
+
+firmware_220220
+===============
+- Tweak USB enumeration to support some joysticks (again)
+- Fix Princess Maker 2 hang at the end of the intro (PCECD)
+- Autofire toggle for other cores, not just Minimig
+- Menu core can have its own menu
+- FatFs: use a cache for directory traversing
+- Always parse the 'V'ersion string in the OSD menu
+
+firmware_220116
+===============
+- Workaround a problem reported with some SD Cards
+- Revert sending a default date to the cores if no USB-RTC found
+- IDE: use H=1, S=32 for hdf files within valid cylinder range (by retrofun)
+- Fix missing R3 in the input configurator (thx retrofun)
+
+firmware_220113
+===============
+- Fixes regarding to joystick_remap parsing
+
+firmware_220112
+===============
+- Fix some issues regarding to the new menu engine (thanks retrofun to fix Minimig profile loading).
+- Query the device descriptor only once for USB devices. This might prevent (un)expected mode switch.
+- Convert [corename].CFG files to INI format. The old file will still load,
+  but Save settings will write in INI.
+- Add a MISTCFG.INI file for global settings, writeable for the firmware itself.
+- Add an interactive joystick map configuration to the Input Test OSD page. Read the scrolling helptext for usage.
+- Send a default date to the cores if no USB-RTC found.
+
+firmware_211207
+===============
+- Add support for the second stick on gamepads (4 axes/gamepad). Tested only on one model yet.
+- Add analogue joystick scaling (joystick_analog_multiplier, joystick_analog_offset options)
+- Restructured menu engine. Easier maintenability, less flash space. As this is a
+  rather large change, report any issues or menu navigation anomalies.
+
+firmware_211121
+===============
+- Use hardware-controlled NPCS lines for SPI
+- Add mass-storage device support (MiST as USB drive - need usb_storage=1 in mist.ini)
+- Add Xbox360 controller support (digital parts only, tested with a Retroflag classic USB gamepad)
+
+firmware_211001
+===============
+- Fix for retrobit gamepads
+- Fix extension handling for short extensions (again)
+
+firmware_210911 (hotfix)
+========================
+- Revert external buffer use for directory browsing (was broken in exFAT)
+
+firmware_210911
+===============
+- Add missing keys for UK keyboard in set1 - for Next186 (by squidrpi)
+- DB9 joystick can be used for OSD navigation
+- A new RTC config page in the OSD (needs USB-RTC)
+- Send 'mod' value to the core loaded from 'core.arc'
+- Implement MMC_WriteMultiple, use it in IDE and ACSI
+- USB HID fixes:
+  - partial fix for Retroflag SNES USB gamepad (see mist-binaries issue#109)
+  - signed joystick axis fix
+  - HAT switch fix
+- Use a bigger sector buffer for directory browsing (slight performance increase)
+- Refactor the code to make it easier to port the firmware to another MCU
+
+firmware_210727
+===============
+- Add more PS2 mouse commands (fixes some Next186 mouse using progs - by retrofun)
+- Don't send a mount msg to the core when mounting is failed (fixes Next186 native SD use)
+- Fix core.arc loading
+
+firmware_210715
+===============
+- Bidirectional PS2 support (accepts some keyboard/mouse control commands)
+- Add total number of sector reporting for IDE LBA mode (fixes HDToolBox size reporting)
+- New Minimig features menu (by retrofun)
+- Menu scrolling fix with subpages
+- Directory listing fix when one directory is a prefix of another
+
+firmware_210618
+===============
+- Compiled in thumb mode
+- Fix a nasty long-standing buffer overflow in Minimig menu code
+- 4 IDE drive support on Minimig (need IDEFix/ATAPIMagic)
+- INI config format for Minimig (last time it has to be recreated)
+- PCECD fix for playing the last track
+- VHD= in ARC file
+- And some other minor updates
+
+firmware_210530
+===============
+- PCE-CD: fix a BCD->binary conversion in PCECD_COMM_GETDIRINFO
+- PCE-CD: slow down sector reads for HuVideo
+- Enhance max. kickstart file name to 79 (sorry, need to reset and resave Minimig configs again)
+- Support LBA28 mode for IDE (>8GiB image support for Minimig, up to 137 GiB on exFAT)
+- Display a warning if HDF indexing fails (and continue with reduced performance)
+- Fix one char extension selection (affects ZX81, TI99/4A)
+Re-uploaded!
+- Fixed MODE1/2048 track type parsing
+
+firmware_210525
+===============
+Major update!
+- AMIGA_MOD_KEYS option by retrofun
+- Better handling of non-bootp capable keyboards (Arduino)
+- FAT driver replaced with FatFs (http://elm-chan.org/fsw/ff/00index_e.html)
+- exFAT support, >4GiB file size support (on exFAT formatted cards)
+- Long name support in Minimig, Atari ST and Archie config files (up to 64 chars)
+- PCE-CD support
+Note: Minimig, Atari ST and Archie config files have to be reset and resaved.
+
+firmware_210330
+===============
+- Don't switch SPI clock for ACSI reads
+- <corename>.hd0/.hd1 can be used instead of a single vhd (useful for plus_too)
+- sdram64 option added to mist.ini (cores can get info if the SDRAM chip is upgraded to 64MB)
+- Allow umounting with backspace from OSD (core support is needed)
+- DIR= option added to ARC files, it can specify a new default directory
+
+firmware_210130
+===============
+- Allow to use the 3rd mouse button in cores
+- Menu navigation fixes in paged mode
+- Add AX88772A USB ID
+- Enable 68020 CPU for MiSTery
+
+firmware_201220
+===============
+- 64 bit status word support
+- .RAM file support mostly to save/load small non-volatile contents (e.g. CMOS RAM or NVRAM in arcades)
+- Always put ".." on the top of the directory list (thanks to retrofun)
+
+firmware_201126
+===============
+- Fix unnecessary RDB generation for some HDF images
+
+firmware_201122
+===============
+- IDE handling cleanup
+- Send Ethernet config periodically to the FPGA
+- Add 0b95:772B noname USB Ethernet adapter
+- Composite blending setting for MiST2
+
+firmware_201011
+===============
+- Fix the clock_freq setting
+- Add a mouse_speed setting to scale the mouse movement by percentage
+
+firmware_201006
+===============
+- Add clock_freq setting to override Minimig master clock
+- Fix detection of SD card capacity for blocksize > 512
+- Support DB9 joystick remap
+- Fix joystick test for DB9
+
+firmware_200725
+===============
+- Fix long-standing ADF write corruption bug
+- Generic USB-RTC support
+
+firmware_200622
+===============
+- Fix memory corruption in SYSTEM.FNT loading (freezing)
+- Generic second mouse and wheel movement support (first core using it: Speed Ball arcade)
+- Honor DEFAULT in ARC file when resetting settings
+
+firmware_200614
+===============
+- Some fixes in OSD menu handling (CPS1)
+- Add joystick_db9_fixed_index (by PunisherHD92)
+- Support two mice for Minimig
+
+firmware_200516
+===============
+- Add Save CMOS RAM option to Archie (needs core update)
+- Sub-menu support in OSD ("P" config string)
+- OSD fonts can be replaced by a SYSTEM.FNT file (8x8 fonts, 768 or 1024 byte length file)
+- Allow specifing profile names in mist.ini for Atari ST and Minimig (check sample mist.ini)
+- Support loading CORE.ARC file as the default core
+- Fix quoted string handling in comments in mist.ini
+- Fix automatic changeing into the core directory in some cases
+
+firmware_200425
+===============
+- Increase maximum size of embedded options in ARC files to 512 bytes
+- Add DEFAULT setting support to ARC files
+
+firmware_200311
+===============
+- Synthesize a directory entry for ROM upload, used in DIO_FILE_INFO
+
+firmware_200215
+===============
+- Fix ROM= entry handling in mist.ini
+
+firmware_200214
+===============
+- Support for NAME in ARC files (core name override)
+- ROM loading from the same directory as the RBF
+- Analogue joystick range scaling and dead zone management (rampa069)
+
+firmware_200208
+===============
+- Support Arduino based keyboards
+- Add csync_disable option to mist.ini
+- Fix ini_parser for mist.ini files > 1024 bytes
+- Introduce ARC metadata files (mostly for arcade usage)
+
+firmware_191129
+===============
+- Direct SD->FPGA transfer for MiSTery ACSI (core update needed)
+- Direct SD->FPGA transfer for other cores' ROM upload (core updates needed)
+- Some minimig and OSD related fixes from Retrofun
+- More complete input device test OSD
+
+firmware_191102
+===============
+- Unused cart area is pulled up in ST cores
+- Multiple profiles support for ST cores
+- Archimedes IDE interface support
+- Changed 24MB Fast RAM option to 8MB in Minimig's 68000 mode

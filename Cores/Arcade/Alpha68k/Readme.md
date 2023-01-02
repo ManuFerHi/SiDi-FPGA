@@ -10,5 +10,6 @@ MiST port, new SDRAM controller, some fixes and enhancements by [Gyorgy Szombath
 
 # Resources
 
-- [Original core](https://github.com/va7deo/alpha68k)
-- [MiST port](https://github.com/Gehstock/Mist_FPGA/tree/master/Arcade_MiST/Alpha%20Densi%20M68000%20Hardware)
+- [Original core by Darren Olafson / atrac17](https://github.com/va7deo/alpha68k)
+- [MiST port by Gyorgy Szombathelyi / Gehstock](https://github.com/Gehstock/Mist_FPGA/tree/master/Arcade_MiST/Alpha%20Densi%20M68000%20Hardware)
+- [MRA tool by Sebastien Delestaing](https://github.com/sebdel/mra-tools-c) 

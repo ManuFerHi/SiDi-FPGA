@@ -1,6 +1,8 @@
-FPGA compatible core of [Alpha Denshi M68000 (ALPHA68K96V based) arcade hardware](http://www.system16.com/hardware.php?id=884) for SiDi, written by [Darren Olafson](https://twitter.com/Darren__O).
+# SiDi port of Alpha68k - Alpha Denshi M68000 arcade hardware
 
-The intent is for this core to be a 1:1 playable implementation of Alpha Denshi M68000 arcade hardware. Currently in beta state, this core is in active development with assistance from [atrac17](https://github.com/atrac17).
+The intent for this core is to be a 1:1 playable implementation of [Alpha Denshi M68000 (ALPHA68K96V based) arcade hardware](http://www.system16.com/hardware.php?id=884).
+
+Currently in beta state, this core is in active development by [Darren Olafson](https://twitter.com/Darren__O) with assistance from [atrac17](https://github.com/atrac17).
 
 FPGA implementation has been verified against schematics for Sky Adventure. PCB measurements taken from Gang Wars (ALPHA-68K96V) and Sky Soldiers (ALPHA-96KII).
 

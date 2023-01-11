@@ -1,12 +1,12 @@
 # MiST / SiDi port of fpgagen - Genesis / Mega Drive core
 
 
-![alt](https://live.staticflickr.com/65535/52620927171_57b1d34b19_o.jpg)
+![alt](https://live.staticflickr.com/65535/52620927171_d603eb71b4_o.png)
 
 This core implements a SEGA Genesis / Mega Drive for MiST / SiDi FPGA boards.
  
 The core's main features:
-  - Complete 68k and z80 CPU implementations
+  - Complete 68K and Z80 CPU implementations
   - Video controller (VDP)
   - Stereo sound
   - Analog video output
@@ -14,8 +14,11 @@ The core's main features:
     - SCART RGB (TV)
     - YPbPr component
   - 3/6 buttons controller support
-  - SEGA Mouse
+  - Lightgun support (single Menacer or single/dual Justifier) via mouse
+  - SEGA Mouse support
+  - SEGA Teamplay / EA 4 Way Play / J-CART multitap support
   - SVP chip for Virtua Racing (in a separate downloadable core)
+  - CPU Turbo option
 
 Currently the core runs most games perfectly, including the "Titan Overdrive" demo. Some games using
 special and undocumented hardware features may show visual or acoustic imperfections, or may not
@@ -64,7 +67,7 @@ A list of carts with backup RAM support, with the type of the storage can be fou
   - [T80 CPU core by Daniel Wallner](https://opencores.org/project/t80/overview)
   - [Initial MIST port by Robinsonb5](https://github.com/robinsonb5/fpgagen)
   - [JT12 YM2612 sound core by Jose Tejada](https://github.com/jotego/jt12)
-  - [Improvements by Gyurco](https://github.com/gyurco/fpgagen)
+  - [Improvements by Gyurco](https://github.com/gyurco/)
   - [Improvements by Sorgelig](https://github.com/MiSTer-devel/Genesis_MiSTer)
   
   ...and many more.

@@ -1,8 +1,11 @@
-# MIST / SiDi port of fpgagen - Genesis/Mega Drive core
+# MiST / SiDi port of fpgagen - Genesis / Mega Drive core
 
-This core implements a Sega Genesis/Mega Drive for the MIST.
 
-The core's main features
+![alt](https://live.staticflickr.com/65535/52620927171_57b1d34b19_o.jpg)
+
+This core implements a SEGA Genesis / Mega Drive for MiST / SiDi FPGA boards.
+ 
+The core's main features:
   - Complete 68k and z80 CPU implementations
   - Video controller (VDP)
   - Stereo sound
@@ -12,46 +15,40 @@ The core's main features
     - YPbPr component
   - 3/6 buttons controller support
   - SEGA Mouse
-  - SVP chip for Virtua Racing (in separate downloadable core)
+  - SVP chip for Virtua Racing (in a separate downloadable core)
 
-By now the core runs most games perfectly incl. the Titan Overdrive demo. Some games using
-special and undocumented hardware features show visual or accousic artifacts or may not
+Currently the core runs most games perfectly, including the "Titan Overdrive" demo. Some games using
+special and undocumented hardware features may show visual or acoustic imperfections, or may not
 run at all.
 
 
 ## Installing the core
 
-Copy the following files to the root of your sdcard:
-  - Copy the latest rbf file (i.e. fpgagen_20181026.rbf) and rename it core.rbf (or load it from the menu core)
-  - Copy mist.ini - This remaps the controller buttons to Buffalo SNES, and you can customise
-it to your controller.
-  - Copy your .bin/.md/.gen cartridge images to the sdcard (preferrably into a genesis subdirectory)
+**This core requires at least firmware version 20181013.**
+
+Copy the following files to the root of your SD card:
+  - Copy the latest rbf file (i.e. fpgagen_20181026.rbf) and rename it core.rbf (or load it from the Menu core)
+  - Copy your .bin/.md/.gen cartridge images to the SD card (preferrably into a GENESIS subdirectory)
 
 ## Backup RAM support
 
-Many games allows to save game state or highscores to an on-cart battery backed SRAM chip. It is
-also usable with the core with some preparation:
+Some games allow to save the game state or highscores to a battery-backed SRAM chip. You can do this in core as well, following this procedure:
 
-  - Create an empty file on the SD-Card with .sav extension. The maximum size of the save ram can be
-32k, so it's safe to create a file with 32768 byte size. Another option to use an existing save file
-from an emulator, e.g. BlastEm's sram files are working.
-  - After loading the game ROM, choose "Mount SAV" from the OSD, and select the previously created file.
-The yellow LED will lit, indicating that the backup file is loaded.
-  - Before you load a new ROM, or turn off the MiST, don't forget to write back the contents of the
-backup RAM to the SD-Card via the "Write Save RAM" OSD option. You can only write back the SRAM contents
-when the yellow led lit!
-  - Note: only normal RAM type backup devices are working, EEPROM is still fake.
-  - A list of carts with backup RAM support, with the type of the storage can be found at
-https://forum.digitpress.com/forum/showthread.php?134961-NES-SNES-Genny-Games-with-Battery-Back-up-Save-feature&p=1614576&viewfull=1#post1614576
+  1. Create an empty file on the SD card with .sav extension. The maximum size of the save ram file can be 32k, so it's safe to create a file with 32768 byte size. Another option is to use an existing save file from an emulator, e.g. BlastEm's sram files are working.
+  2. After loading the game ROM, choose "Mount SAV" from the OSD, and select the previously created file.
+  3. Before you load a new ROM, or turn off the board, don't forget to write back the contents of the
+backup RAM to the SD card with the "Write Save RAM" OSD option. You can only write back the SRAM contents
+when the SAV is mounted!
 
-**If you're using the Backup RAM feature, for safety of your filesystem on the SD-Card, use at least 
-[firmware version 20190110](https://github.com/mist-devel/mist-binaries/blob/master/firmware/firmware_190110.upg)**
+Note: only normal RAM type backup devices are working, EEPROM is still fake.
+
+A list of carts with backup RAM support, with the type of the storage can be found in [this forum topic](https://forum.digitpress.com/forum/showthread.php?134961-NES-SNES-Genny-Games-with-Battery-Back-up-Save-feature&p=1614576&viewfull=1#post1614576).
 
 ## Some usage tips
 
-  1. The core rquires at least firmware version 20181013.
-  2. Rom file formats supported are .bin and .gen, no support for .smd files
-  3. If the controls seems to not work, try switch to 3 buttons mode in the OSD
+  1. **The core requires at least firmware version 20181013.**
+  2. Rom file formats supported are .bin and .gen, no support for .smd files.
+  3. If the controls seems to not work, try switch to 3 buttons mode in the OSD.
   4. Includes support for [YPbPr cables](https://github.com/mist-devel/mist-board/wiki/YPbPr_Cable)
   5. Some carts have an SRAM or EEPROM to allow saving game states. SRAM is always enabled at 2MB (if
      the cart size < 2MB, or the game uses bank switching to page in), and you can turn on a "fake"
@@ -69,7 +66,8 @@ https://forum.digitpress.com/forum/showthread.php?134961-NES-SNES-Genny-Games-wi
   - [JT12 YM2612 sound core by Jose Tejada](https://github.com/jotego/jt12)
   - [Improvements by Gyurco](https://github.com/gyurco/fpgagen)
   - [Improvements by Sorgelig](https://github.com/MiSTer-devel/Genesis_MiSTer)
-  - and many more ...
+  
+  ...and many more.
 
 ## Thanks to the members/authors of
 

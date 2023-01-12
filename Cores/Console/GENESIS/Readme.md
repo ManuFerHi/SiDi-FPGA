@@ -18,7 +18,7 @@ The core's main features:
   - SEGA Mouse support
   - SEGA Teamplay / EA 4 Way Play / J-CART multitap support
   - SVP chip for Virtua Racing (in a separate downloadable core)
-  - CPU Turbo option
+  - Advanced options: CPU Turbo - Composite Blending - High Quality PCM
 
 Currently the core runs most games perfectly, including the "Titan Overdrive" demo. Some games using
 special and undocumented hardware features may show visual or acoustic imperfections, or may not
@@ -67,7 +67,7 @@ A list of carts with backup RAM support, with the type of the storage can be fou
   - [T80 CPU core by Daniel Wallner](https://opencores.org/project/t80/overview)
   - [Initial MIST port by Robinsonb5](https://github.com/robinsonb5/fpgagen)
   - [JT12 YM2612 sound core by Jose Tejada](https://github.com/jotego/jt12)
-  - [Improvements by Gyurco](https://github.com/gyurco/)
+  - [Improvements by Gyurco](https://github.com/mist-devel/mist-binaries/tree/master/cores/fpgagen)
   - [Improvements by Sorgelig](https://github.com/MiSTer-devel/Genesis_MiSTer)
   
   ...and many more.

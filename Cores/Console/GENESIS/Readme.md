@@ -16,9 +16,9 @@ The core's main features:
   - 3/6 buttons controller support
   - Lightgun support (single Menacer or single/dual Justifier) via mouse
   - SEGA Mouse support
-  - SEGA Teamplay / EA 4 Way Play / J-CART multitap support
-  - SVP chip for Virtua Racing (in a separate downloadable core)
-  - Advanced options: CPU Turbo - Composite Blending - High Quality PCM
+  - Multitap support: SEGA Teamplay - EA 4 Way Play - J-CART
+  - Advanced options: CPU turbo - composite blending - high quality PCM - CRAM dots - borders
+  - SVP (SEGA Virtual Processor) chip for **Virtua Racing** (in a separate downloadable core)
 
 Currently the core runs most games perfectly, including the "Titan Overdrive" demo. Some games using
 special and undocumented hardware features may show visual or acoustic imperfections, or may not
@@ -31,7 +31,11 @@ run at all.
 
 Copy the following files to the root of your SD card:
   - Copy the latest rbf file (i.e. fpgagen_20181026.rbf) and rename it core.rbf (or load it from the Menu core)
-  - Copy your .bin/.md/.gen cartridge images to the SD card (preferrably into a GENESIS subdirectory)
+  - Copy your .bin/.md/.gen cartridge images to the SD card (preferably into a GENESIS subdirectory)
+  
+### SVP version
+
+The SVP (SEGA Virtua Processor) version in *only* for Virtua Racing. It's also mandatory to enable the "CPU turbo" option and manually set the correct ROM region.
 
 ## Backup RAM support
 
@@ -50,14 +54,14 @@ A list of carts with backup RAM support, with the type of the storage can be fou
 ## Some usage tips
 
   1. **The core requires at least firmware version 20181013.**
-  2. Rom file formats supported are .bin and .gen, no support for .smd files.
-  3. If the controls seems to not work, try switch to 3 buttons mode in the OSD.
+  2. If you place a .bin or .gen ROM renamed as GENESIS.ROM (or GEN_SVP.ROM if SVP) in the same folder of the core, it will be loaded automatically on boot.
+  3. If the controls seems to not work, try switch to 3 buttons mode in the OSD, or enable the option "Joystick swap".
   4. Includes support for [YPbPr cables](https://github.com/mist-devel/mist-board/wiki/YPbPr_Cable)
   5. Some carts have an SRAM or EEPROM to allow saving game states. SRAM is always enabled at 2MB (if
      the cart size < 2MB, or the game uses bank switching to page in), and you can turn on a "fake"
      EEPROM at 2MB in the OSD. For example, it allows NBA Jam TE to run. Note: use "Fake EEPROM"
      option only on games which require it, because its control address can clash with the normal cart ROM.
-  6. SVP version is only for Virtua Racing!
+  6. SVP version is *only* for Virtua Racing!
 
 ## Contributors
 

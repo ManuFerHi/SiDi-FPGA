@@ -6,6 +6,14 @@ This is a port of Luddes' NES core to SiDi (see his [FPGANES blog](http://fpgane
 - [FPGANES original source code by strigeus](https://github.com/strigeus/fpganes) 
 - [MiST port by gyurco](https://github.com/mist-devel/nes)
 
+## Installation
+
+Copy the following files to the root of your SD card:
+
+* copy the latest rbf file (i.e. nes_SiDi_20230117.rbf) and rename it core.rbf (or load it from the Menu core)
+* copy your .nes cartridge images to the SD card (preferably into a NES subdirectory) to load them via OSD menu
+
+
 ## 15 khz support (TV)
 Create a mist.ini file with at least the following line:
 
@@ -64,7 +72,7 @@ They're played using Loopy's NSF player. Just load the NSF file and enjoy!
 
 ## Backup RAM support / FDS image save
 
-* Create an empty SAV file on the SD-Card to store the backup RAM data. The size of this file should be 8 kbytes for
+* Create an empty SAV file on the SD card to store the backup RAM data. The size of this file should be 8 kbytes for
 ordinary cart saves, and the size of the .FDS file (usually ~128 kbytes) for disk saves.
 * After loading the NES/FDS file, choose the "Mount SRAM" option from the OSD, and select the .SAV file.
-* You can load/save the backup RAM contents from/to the SD Card via the "Load SRAM" and the "Save SRAM" OSD items.
+* You can load/save the backup RAM contents from/to the SD card via the "Load SRAM" and the "Save SRAM" OSD items.

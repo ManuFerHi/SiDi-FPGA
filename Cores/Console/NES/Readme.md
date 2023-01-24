@@ -26,7 +26,6 @@ scandoubler_disable=1
 
 * Use one or two gamepads
 * Buttons 3 and 4 are Select and Start
-* If your gamepad has only 2 buttons you can use Select and Start from OSD menu
 * F12 to open OSD menu
 
 

@@ -30,7 +30,7 @@ run at all.
 **This core requires at least firmware version 20181013.**
 
 Copy the following files to the root of your SD card:
-  - copy the latest rbf file (i.e. fpgagen_20181026.rbf) and rename it core.rbf (or load it from the Menu core)
+  - copy the latest rbf file (i.e. fpgagen_SiDi_221230.rbf) and rename it core.rbf (or load it from the Menu core)
   - copy your .bin/.md/.gen cartridge images to the SD card (preferably into a GENESIS subdirectory)
   
 ### SVP version
@@ -39,27 +39,27 @@ The SVP (SEGA Virtua Processor) version is *only* for Virtua Racing. It's also m
 
 ## Backup RAM support
 
-Some games allow to save the game state or highscores to a battery-backed SRAM chip. You can do this in core as well, following this procedure:
+Some games allow to save the game state or highscores to a battery-backed SRAM chip. You can do this in the core as well, following this procedure:
 
-  1. Create an empty file on the SD card with .sav extension. The maximum size of the save ram file can be 32k, so it's safe to create a file with 32768 byte size. Another option is to use an existing save file from an emulator, e.g. BlastEm's sram files are working.
-  2. After loading the game ROM, choose "Mount SAV" from the OSD, and select the previously created file.
-  3. Before you load a new ROM, or turn off the board, don't forget to write back the contents of the
+  1. Create an empty file on the SD card with .SAV extension. The maximum size of the save ram file can be 32k, so it's safe to create a file with 32768 byte size. Another option is to use an existing save file from an emulator, e.g. BlastEm's sram files are working.
+  2. After loading the game ROM, choose the "Mount SAV" OSD option, and select the previously created file.
+  3. Before loading a new ROM, or turning off the board, don't forget to write back the contents of the
 backup RAM to the SD card with the "Write Save RAM" OSD option. You can only write back the SRAM contents
 when the SAV is mounted!
 
 Note: only normal RAM type backup devices are working, EEPROM is still fake.
 
-A list of carts with backup RAM support, with the type of the storage can be found in [this forum topic](https://forum.digitpress.com/forum/showthread.php?134961-NES-SNES-Genny-Games-with-Battery-Back-up-Save-feature&p=1614576&viewfull=1#post1614576).
+A list of carts with backup RAM support and storage type can be found in [this forum topic](https://forum.digitpress.com/forum/showthread.php?134961-NES-SNES-Genny-Games-with-Battery-Back-up-Save-feature&p=1614576&viewfull=1#post1614576).
 
 ## Some usage tips
 
   1. **The core requires at least firmware version 20181013.**
   2. If you place a .bin or .gen ROM renamed as GENESIS.ROM (or GEN_SVP.ROM for SVP) in the same folder of the core, it will be loaded automatically on boot.
-  3. If the controls seems to not work, try switch to 3 buttons mode in the OSD, or enable the "Joystick Swap" option.
-  4. Includes support for [YPbPr cables](https://github.com/mist-devel/mist-board/wiki/YPbPr_Cable)
+  3. If controls seems to not work, try switch to 3 buttons mode in the OSD, or enable the "Joystick Swap" option.
+  4. [YPbPr cables](https://github.com/mist-devel/mist-board/wiki/YPbPr_Cable) are supported
   5. Some carts have an SRAM or EEPROM to allow saving game states. SRAM is always enabled at 2MB (if
      the cart size < 2MB, or the game uses bank switching to page in), and you can turn on a "fake"
-     EEPROM at 2MB in the OSD. For example, it allows NBA Jam TE to run. Note: use "Fake EEPROM"
+     EEPROM at 2MB in the OSD. For example, it allows NBA Jam TE to run. Note: use the "Fake EEPROM"
      option only for games which require it, because its control address can clash with the normal cart ROM.
   6. SVP version is *only* for Virtua Racing!
 

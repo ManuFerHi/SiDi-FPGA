@@ -25,12 +25,10 @@ scandoubler_disable=1
 ## Joystick support
 
 * Use one or two gamepads
-* Buttons 3 and 4 are Select and Start
-* F12 to open OSD menu
-
+* Buttons X and Y are Turbo A and Turbo B
 
 ## Keyboard support
-
+* F12 - Open the OSD menu
 * 1 - Switch to joystick A
 * 2 - Switch to joystick B
 * Up, Down, Left, Right
@@ -57,15 +55,14 @@ Side B:
 ## FDS image support
 
 Famicom Disk System images are supported through Loopy's FDS mapper. It needs
-a modified FDS BIOS, can be found in the [NES PowerPak](https://www.retrousb.com/product_info.php?products_id=34).
-Get FDSBIOS.BIN from the archive, and load it using the OSD "Load FDS BIOS" option before
-loading an FDS file.
+a modified FDS BIOS from the [NES PowerPak](https://www.retrousb.com/product_info.php?products_id=34).
+Get FDSBIOS.BIN from the archive, and load it using the "Load FDS BIOS" OSD option before
+loading any FDS file.
 
 If a game requires a disk swap, hold down the PgUp key for a while. If the automatic
-feature determining the requested disk side doesn't work, select it using the
-OSD "Disk Side" option.
+feature determining the requested disk side doesn't work, select it using the "Disk Side" OSD option.
 
-## NSF music files
+## NSF music files support
 
 They're played using Loopy's NSF player. Just load the NSF file and enjoy!
 
@@ -73,5 +70,5 @@ They're played using Loopy's NSF player. Just load the NSF file and enjoy!
 
 * Create an empty SAV file on the SD card to store the backup RAM data. The size of this file should be 8 kbytes for
 ordinary cart saves, and the size of the .FDS file (usually ~128 kbytes) for disk saves.
-* After loading the NES/FDS file, choose the "Mount SRAM" option from the OSD, and select the .SAV file.
+* After loading the NES/FDS file, choose the "Mount SRAM" OSD option and select the SAV file.
 * You can load/save the backup RAM contents from/to the SD card via the "Load SRAM" and the "Save SRAM" OSD items.

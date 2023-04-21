@@ -2,7 +2,7 @@
 
 ![IREM M72-M84 logo](https://live.staticflickr.com/65535/52610865422_eef543e3db_o.png)![Harry](https://www.emugifs.net/wp-content/uploads/2021/04/Harry-Character-Gen-the-Carpenter-from-Hammerin-Harry-Video-Game-Transparent-Sticker-GIF-Sprite.gif)
 
-This is an implemention of the Irem [M72](https://www.system16.com/hardware.php?id=738) & [M84](https://www.system16.com/hardware.php?id=744) arcade hardware for the SiDi FPGA platform.
+This is an implementation of Irem [M72](https://www.system16.com/hardware.php?id=738) & [M84](https://www.system16.com/hardware.php?id=744) arcade hardware for the SiDi FPGA platform.
 
 Original core by [Martin Donlon](https://github.com/wickerwaka).
 

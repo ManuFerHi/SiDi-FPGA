@@ -4,7 +4,7 @@
 
 This is an implementation of Irem [M92 arcade hardware](http://www.system16.com/hardware.php?id=747) for the SiDi FPGA platform.
 The Irem M92 core includes numerous games that have not been ported elsewhere, providing a unique and authentic arcade experience.
-Due to the limited available FPGA logic space, part of music (JT51) and "Major Title 2" (EEPROM) are **not supported** in this release.
+_Due to the limited available FPGA logic space, part of the music (JT51) and "Major Title 2" (EEPROM) are **not supported** in this release._
 
 Original core by [Martin Donlon](https://github.com/wickerwaka).
 

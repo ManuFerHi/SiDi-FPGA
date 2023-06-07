@@ -1,6 +1,6 @@
 # SNK Neo Geo core for SiDi
 
-![Neo Geo rounded logo](https://flic.kr/p/2oFL4ET)
+![Neo Geo rounded logo](https://live.staticflickr.com/65535/52958482059_69a299d0a8_o.png)
 
 This is a port of the [NeoGeo FPGA implementation](https://github.com/MiSTer-devel/NeoGeo_MiSTer) by [Furrtek](https://www.patreon.com/furrtek/posts) and [Gyurco](https://github.com/gyurco/NeoGeo_MiSTer/tree/mist) for the SiDi FPGA platform.
 

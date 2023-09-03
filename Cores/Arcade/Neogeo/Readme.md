@@ -7,7 +7,7 @@ The core now supports **NeoGeo AES**, **MVS** and **NeoGeo CD** (minimum firmwar
 
 ## Usage
 
-Copy the *NeoGeo.rbf* file on the SD card. ROMs and ISOs should go in the 'NEOGEO' folder.
+Copy the *NeoGeo_SiDi_XXXXXX.rbf* file on the SD card. ROMs and ISOs should go in the 'NEOGEO' folder.
 
 A **bios** must be loaded before cartridges or CDs, it can be created from MAME's *neogeo.zip* or the [Universe Bios](http://unibios.free.fr/download.html) with the help of the [MRA files](https://github.com/mist-devel/mist-binaries/tree/master/cores/neogeo/bios).
 

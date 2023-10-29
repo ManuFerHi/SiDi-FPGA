@@ -1,8 +1,8 @@
-# Videoton TV Computer
+# Videoton TV-Computer
 
-![TVC](https://live.staticflickr.com/65535/53295090895_1cf2bbfe9e_o.png)
+![TVC](https://live.staticflickr.com/65535/53295090895_d8792d0748.jpg)
 
-The TV Computer (TVC) was manufactured by the Hungarian company Videoton between 1986 and 1989.
+The TV-Computer (TVC) was manufactured by the Hungarian company Videoton between 1986 and 1989.
 
 The FPGA core originally written by Jozsef Laszlo. The original website is http://joco.homeserver.hu/.
 
@@ -13,7 +13,7 @@ The additions to the original core:
 - Some additional fixes, like digi sound is working now.
 - 15kHz (original) and 31kHz(scandoubled) video outputs are supported in one core.
 
-More information about the machine can be found at: http://tvc.homeserver.hu/. The website is mostly Hungarian, but there's an English section, too.
+More information about the machine can be found at http://tvc.homeserver.hu/. The website is mostly Hungarian, but there's an English section, too.
 
 ## Usage
 

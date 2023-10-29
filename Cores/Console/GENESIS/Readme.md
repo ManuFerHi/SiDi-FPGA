@@ -24,6 +24,18 @@ Currently the core runs most games perfectly, including the "Titan Overdrive" de
 special and undocumented hardware features may show visual or acoustic imperfections, or may not
 run at all.
 
+## Controls
+
+| Genesis | SiDi    |
+|---------|---------|
+| A       | A       |
+| B       | B       |
+| C       | Select  |
+| X       | X       |
+| Y       | Y       |
+| Z       | L       |
+| Start   | Start   |
+
 
 ## Installing the core
 

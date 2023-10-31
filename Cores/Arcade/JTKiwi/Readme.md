@@ -8,11 +8,6 @@ Original core by [Jose Tejada (aka jotego - @topapate)](https://github.com/joteg
 
 SiDi port and optimizations by [Somhi](https://github.com/somhi/).
 
-You can show your appreciation through
-* [Patreon](https://patreon.com/jotego)
-* [Paypal](https://paypal.me/topapate)
-
-
 ## Supported Games
 
 In chronological order:

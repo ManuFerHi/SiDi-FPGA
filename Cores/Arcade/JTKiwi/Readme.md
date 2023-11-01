@@ -2,7 +2,7 @@
 
 ![Kiwi](https://live.staticflickr.com/65535/53299699988_b1e4e6c6ca_o.png)
 
-This is an implementation of [TAITO "The New Zealand Story" arcade hardware](https://www.system16.com/hardware.php?id=648) for the SiDi FPGA platform.
+This is an implementation of [TAITO "The NewZealand Story" arcade hardware](https://www.system16.com/hardware.php?id=648) for the SiDi FPGA platform.
 
 Original core by [Jose Tejada (aka jotego - @topapate)](https://github.com/jotego).
 
@@ -14,7 +14,7 @@ In chronological order:
 
  1. Extermination
  2. Insector X
- 3. The New Zealand Story
+ 3. The NewZealand Story
  4. Kageki
  5. Arkanoid Revenge of Doh
 

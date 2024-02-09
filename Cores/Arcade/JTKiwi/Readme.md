@@ -2,6 +2,8 @@
 
 ![Kiwi](https://live.staticflickr.com/65535/53299699988_b1e4e6c6ca_o.png)
 
+**UPDATE: a newer version of this core is now available, also for SiDi, in the [official JOTEGO repository](https://github.com/jotego/jtbin/tree/master/sidi)**.
+
 This is an implementation of [TAITO "The NewZealand Story" arcade hardware](https://www.system16.com/hardware.php?id=648) for the SiDi FPGA platform.
 
 Original core by [Jose Tejada (aka jotego - @topapate)](https://github.com/jotego).

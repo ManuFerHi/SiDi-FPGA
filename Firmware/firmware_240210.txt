@@ -1,3 +1,141 @@
+firmware_240210
+===============
+- Rescan directory, if the OSD size is changed
+- Continously check SD card status, reinitialize if removed and reinserted
+- USB: fix race condition between SOF IRQ check and reset
+- Prevent stuck joystick when opening the OSD
+
+firmware_240105
+===============
+- Add joystick_disable_swap option
+- Fix 'T' menu option if it's above 32 bit
+- Add RAMFUNC to timer functions to prevent firmware upgrade locks
+- Precheck the firmware before upgrade with the same code as the upgrade, so if it passes, then high chances the upgrade will work, too
+- Add ATA commands 21h,31h (by xolod79, for UNEON core)
+- Add a BIGOSD feature for 16 line OSDs (by the expense of 2 M9K blocks on the FPGA side), can be requested by a core
+- Some more small internal fixes/cleanups
+
+firmware_231214-intermediate
+============================
+- An intermediate firmware fixing a firmware upgrade bug with previous versions. Check the readme.md file for important details.
+
+firmware_230705
+===============
+- Neo Geo CD support
+
+firmware_230505
+===============
+- Handle BUTTONS line in ARC files (use a recent MRA tool to add it to ARCs)
+- Display the real RBF name in the system menu if the core is loaded from an ARC file
+
+firmware_230421
+===============
+- New system status menu page (by retrofun)
+- IDE improvements for non-Amiga use cases
+- Disable joysticks when OSD is open
+
+firmware_221122
+===============
+- Fix ASIX USB network adapter detection
+- Fix crash when Minimig is loaded from a subdirectory
+- Some OSD drawing code optimizations
+- Load a default ARC file when the FPGA is initialized from JTAG
+- Give time to initialize the FPGA when loaded from JTAG
+
+firmware_221017
+===============
+- Tweak USB storage recognition (by retrofun)
+- Show information of booted storage device in OSD system menu (by retrofun)
+- Increase max. core/dir/vhdname size to 16 in ARC files
+- Fix F12 code in PS2/set1 (affects Next186)
+- Use the proper CRC value for CMD12 in SD card multiple read access
+
+firmware_220906
+===============
+- Some IDE/ATAPI related fixes
+- Support playback of CD Audio
+- Load optional <corename>.R0[1-6] files at core boot
+
+firmware_220826
+===============
+- Many IDE/ATAPI related fixes
+
+firmware_220821
+===============
+- Switch boot from SD/USB with user button (by retrofun)
+- ATAPI CDROM support in the IDE module
+
+firmware_220805
+===============
+- Resurrect USB storage driver (host) - an USB drive can be used instead of the SD Card
+- Fix saving of Minimig's dither settings
+- Fix a possible disk corruption during Minimig floppy writes (Heimdall 2 save disk)
+- Add joystick_dead_range setting (useful for paddles)
+- Other internal fixes and changes for timers and USB
+
+firmware_220701
+===============
+- Add selective ack for SD IO, for easier support of multiple disk images
+
+firmware_220629
+===============
+- Close the OSD after NVRAM save (#93)
+- Increase max. RBF filename to 32 in ARC files
+- Enable PGUP/PGDN keys in the menus
+- Save 32/64 bit values in hexa format in CFG files
+- Correct Delete key in PS2 Set 1 (affects Next186)
+- Add Retro Games THEGAMEPAD USB IDs (retrofun)
+- Add keypad Enter as select key for menu items (retrofun)
+- Fix the 'V' string in the helptext, too (#88)
+- Reconnect the USB device when a new core was loaded
+
+firmware_220329
+===============
+- Cubase dongle support in the Atari ST menu
+
+firmware_220220
+===============
+- Tweak USB enumeration to support some joysticks (again)
+- Fix Princess Maker 2 hang at the end of the intro (PCECD)
+- Autofire toggle for other cores, not just Minimig
+- Menu core can have its own menu
+- FatFs: use a cache for directory traversing
+- Always parse the 'V'ersion string in the OSD menu
+
+firmware_220116
+===============
+- Workaround a problem reported with some SD Cards
+- Revert sending a default date to the cores if no USB-RTC found
+- IDE: use H=1, S=32 for hdf files within valid cylinder range (by retrofun)
+- Fix missing R3 in the input configurator (thx retrofun)
+
+firmware_220113
+===============
+- Fixes regarding to joystick_remap parsing
+
+firmware_220112
+===============
+- Fix some issues regarding to the new menu engine (thanks retrofun to fix Minimig profile loading).
+- Query the device descriptor only once for USB devices. This might prevent (un)expected mode switch.
+- Convert [corename].CFG files to INI format. The old file will still load,
+  but Save settings will write in INI.
+- Add a MISTCFG.INI file for global settings, writeable for the firmware itself.
+- Add an interactive joystick map configuration to the Input Test OSD page. Read the scrolling helptext for usage.
+- Send a default date to the cores if no USB-RTC found.
+
+firmware_211207
+===============
+- Add support for the second stick on gamepads (4 axes/gamepad). Tested only on one model yet.
+- Add analogue joystick scaling (joystick_analog_multiplier, joystick_analog_offset options)
+- Restructured menu engine. Easier maintenability, less flash space. As this is a
+  rather large change, report any issues or menu navigation anomalies.
+
+firmware_211121
+===============
+- Use hardware-controlled NPCS lines for SPI
+- Add mass-storage device support (MiST as USB drive - need usb_storage=1 in mist.ini)
+- Add Xbox360 controller support (digital parts only, tested with a Retroflag classic USB gamepad)
+
 firmware_211001
 ===============
 - Fix for retrobit gamepads

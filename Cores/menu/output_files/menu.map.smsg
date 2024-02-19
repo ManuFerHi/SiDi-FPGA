@@ -1,4 +1,0 @@
-Info (10281): Verilog HDL Declaration information at user_io.v(30): object "SPI_DO" differs only in case from object "spi_do" in the same scope File: E:/G/Electronica/SiDi/Sources/Menu/user_io.v Line: 30
-Info (10281): Verilog HDL Declaration information at MENU.sv(162): object "R_out" differs only in case from object "r_out" in the same scope File: E:/G/Electronica/SiDi/Sources/Menu/MENU.sv Line: 162
-Info (10281): Verilog HDL Declaration information at MENU.sv(162): object "G_out" differs only in case from object "g_out" in the same scope File: E:/G/Electronica/SiDi/Sources/Menu/MENU.sv Line: 162
-Info (10281): Verilog HDL Declaration information at MENU.sv(162): object "B_out" differs only in case from object "b_out" in the same scope File: E:/G/Electronica/SiDi/Sources/Menu/MENU.sv Line: 162

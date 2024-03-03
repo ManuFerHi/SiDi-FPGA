@@ -47,6 +47,7 @@ The original Neo Geo system has big RAM/ROM memories, which don't fit into the B
 read two 32 bit words simultaneously in just 8 cycles using bank interleaving, running at 96MHz.
 
 The limitation of ROM sizes for SiDi (**32 MiB**) is ~6 MiB PROMS and 24 MiB CROM+VROMs (in any size combination).
+SiDi128 has no limitations.
 
 ## Resources
 

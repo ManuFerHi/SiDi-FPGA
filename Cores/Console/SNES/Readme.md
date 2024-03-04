@@ -6,8 +6,6 @@
   * Save/Load Backup RAM.
   * Video support: VGA, RGB, YPbPr.
 
-# Links #
-  * [Core binaries](https://github.com/mist-devel/mist-binaries/tree/master/cores/snes) (Install .rbf file to SD card)
   * [Original source code](https://github.com/gyurco/SNES_MiSTer/tree/mist)
 
 

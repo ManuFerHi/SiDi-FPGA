@@ -46,7 +46,8 @@ A 8K (8192 bytes) empty file can be used as a memory card. It can be loaded-unlo
 The original Neo Geo system has big RAM/ROM memories, which don't fit into the BRAM of the SiDi's FPGA. A new SDRAM controller was written, which can
 read two 32 bit words simultaneously in just 8 cycles using bank interleaving, running at 96MHz.
 
-The limitation of ROM sizes for SiDi (**32 MiB**) is ~6 MiB PROMS and 24 MiB CROM+VROMs (in any size combination).
+The limitation of ROM sizes for SiDi (**32 MiB**) is ~6 MiB PROMS and 24 MiB CROM+VROMs (in any size combination).  
+SiDi128 has no limitations.
 
 ## Resources
 

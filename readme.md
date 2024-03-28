@@ -39,7 +39,7 @@ For purchase here -> https://manuferhi.com/
 
 |    Console cores    | SiDi | SiDi128 |
 | ------------------- | ---- | ------- |
-| Atari 2600          |X| |
+| Atari 2600          |X|X|
 | Atari 5200          |X|X|
 | Atari 7800          |X|X|
 | Astrocade           |X| |

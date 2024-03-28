@@ -37,5 +37,24 @@ For purchase here -> https://manuferhi.com/
 | ZX Spectrum Next     |X|X|
 | ZX8X                 |X|X|
 
+|    Console cores    | SiDi | SiDi128 |
+| ------------------- | ---- | ------- |
+| Atari 2600          |X| |
+| Atari 5200          |X|X|
+| Atari 7800          |X|X|
+| Astrocade           |X| |
+| Colecovision        |X|X|
+| Gameboy             |X|X|
+| Gameboy Advance     | |X|
+| Genesis / Megadrive |X|X|
+| NeoGeo              |X|X|
+| NES                 |X|X|
+| PC Engine SuperGrafx |X|X|
+| Playstation         | |X|
+| Sega Master System  |X| |
+| SNES                |X|X|
+| Videopac            |X| |
+| Vectrex             |X| |
+
 
 

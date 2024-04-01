@@ -51,7 +51,7 @@ For purchase here -> https://manuferhi.com/
 | NES                 |X|X|
 | PC Engine SuperGrafx |X|X|
 | Playstation         | |X|
-| Sega Master System  |X| |
+| Sega Master System  |X|X|
 | SNES                |X|X|
 | Videopac            |X| |
 | Vectrex             |X| |

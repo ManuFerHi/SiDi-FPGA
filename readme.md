@@ -15,6 +15,7 @@ For purchase here -> https://manuferhi.com/
 | Atari800XL           |X|X|
 | AtariST / Mistery    |X|X|
 | BBC Micro            |X|X|
+| Coleco Adam          | |X|
 | Commodore 16         |X|X|
 | Commodore 64         |X|X|
 | Commodore PET        |X| |

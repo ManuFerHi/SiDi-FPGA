@@ -1,5 +1,8 @@
 MIST Firmware
 =============
+Load latest firmware here https://github.com/mist-devel/mist-binaries/tree/master/firmware
+
+SiDi "Classic" use same firmware than MIST.
 
 These are the binary releases of the MIST firmware.
 

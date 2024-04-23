@@ -1,5 +1,5 @@
 
-# Amstrad CPC 6128 for MiSTica and MiSTer
+# Amstrad CPC 6128 for Sidi and Sidi128
 This core has been started as a port of [CoreAmstrad by Renaud Hélias](https://github.com/renaudhelias/CoreAmstrad) but every module has been either rewritten or replaced so, now it can be treated as a completely new core.
 
 ## Features
@@ -69,6 +69,11 @@ Control keys:
 * Alt+F2+F3 - unload the tape (turn off the LED)
 
 CDT playback respects the tape motor state, so using F2/F3 is not required during playback.
+
+For loading a tape you need to type these commands
+
+|TAPE + Enter (switch on tape mode) 
+RUN" + Enter for loading a .CDT file after selected it from OSD menù
 
 ## RAM
 CPC664 model has only 64KB RAM - use this model for programs not compatible with 128KB RAM.

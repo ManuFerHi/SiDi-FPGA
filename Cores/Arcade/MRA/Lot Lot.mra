@@ -1,0 +1,131 @@
+<misterromdescription>
+    <name>Lot Lot</name>
+    <mameversion>0216</mameversion>
+    <setname>lotlot</setname>
+    <manufacturer>Irem</manufacturer>
+    <rbf>iremm62</rbf>
+    <rom index="1"><part>8</part></rom>
+    <rom index="0" zip="lotlot.zip" md5="dbd20cd8f5d2555911090e62e4621920" type="merged|nonmerged">
+      <!-- CPU1, 128k -->
+      <part name="lot-a-4e"/>
+      <part name="lot-a-4d"/>
+      <part name="lot-a-4e"/>
+      <part name="lot-a-4d"/>
+      <part name="lot-a-4e"/>
+      <part name="lot-a-4d"/>
+      <part name="lot-a-4e"/>
+      <part name="lot-a-4d"/>
+
+      <!-- SND CPU2, 64k -->
+      <part repeat="8" name="lot-a-3h"/>
+
+      <!-- GFX1, 128k -->
+      <interleave output="32">
+          <part name="lot-k-4a"/>
+          <part name="lot-k-4c"/>
+          <part name="lot-k-4b"/>
+          <part name="lot-k-4b"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-k-4a"/>
+          <part name="lot-k-4c"/>
+          <part name="lot-k-4b"/>
+          <part name="lot-k-4b"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-k-4a"/>
+          <part name="lot-k-4c"/>
+          <part name="lot-k-4b"/>
+          <part name="lot-k-4b"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-k-4a"/>
+          <part name="lot-k-4c"/>
+          <part name="lot-k-4b"/>
+          <part name="lot-k-4b"/>
+      </interleave>
+
+      <!-- GFX2, 256k -->
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-b-4k"/>
+          <part name="lot-b-3n"/>
+          <part name="lot-b-4c"/>
+          <part name="lot-b-4c"/>
+      </interleave>
+
+      <!-- GFX3, 64k -->
+      <interleave output="32">
+          <part name="lot-k-4p"/>
+          <part name="lot-k-4l"/>
+          <part name="lot-k-4n"/>
+          <part name="lot-k-4n"/>
+      </interleave>
+      <interleave output="32">
+          <part name="lot-k-4p"/>
+          <part name="lot-k-4l"/>
+          <part name="lot-k-4n"/>
+          <part name="lot-k-4n"/>
+      </interleave>
+
+      <!-- spr_color_proms, 3*256b -->
+      <part name="lot-b-1m"/>
+      <part name="lot-b-1n"/>
+      <part name="lot-b-1l"/>
+
+      <!-- chr_color_proms, 3*256b -->
+      <part name="lot-k-2f"/>
+      <part name="lot-k-2e"/>
+      <part name="lot-k-2d"/>
+
+      <!-- fg_color_proms, 3*256b -->
+      <part name="lot-k-2l"/>
+      <part name="lot-k-2k"/>
+      <part name="lot-k-2j"/>
+
+      <!-- spr_height_prom -->
+      <part name="lot-b-5p"/>
+
+    </rom>
+</misterromdescription>

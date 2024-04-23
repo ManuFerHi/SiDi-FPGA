@@ -1,0 +1,23 @@
+<misterromdescription>
+    <name>Troopy</name>
+    <rbf>scramble</rbf>
+    <switches>
+	<dip bits="7"  name="Lives"       ids="3,Unl"/>
+    </switches>
+    <rom index="1"><part>13</part></rom>
+    <rom index="0" zip="troopy.zip|mrkougar.zip|mrkougb2.zip" md5="b13fa3804ad07476e557ce117268f521" type="merged|nonmerged">
+	<part name="ic2cb.bin"/>
+	<part name="ic2eb.bin"/>
+	<part name="ic2fb.bin"/>
+	<part name="ic2fb.bin"/>
+
+	<part name="atw-6w-2.bin"/>
+	<part name="atw-6y-3.bin"/>
+	<part name="atw-6z-4.bin"/>
+	<part name="atw-6z-4.bin"/>
+
+	<part name="ic5h_neu.bin"/>
+	<part name="ic5f_neu.bin"/>
+	<part name="atw-prom.bin"/>
+    </rom>
+</misterromdescription>

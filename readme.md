@@ -48,6 +48,7 @@ For purchase here -> https://manuferhi.com/
 | Gameboy             |X|X|
 | Gameboy Advance     | |X|
 | Genesis / Megadrive |X|X|
+| Intellivision       | |X|
 | NeoGeo              |X|X|
 | NES                 |X|X|
 | PC Engine SuperGrafx |X|X|

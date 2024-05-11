@@ -22,7 +22,7 @@ For purchase here -> https://manuferhi.com/
 | Commodore VIC20      |X|X|
 | Camputers Lynx       |X| |
 | Color Computer 3     |X| |
-| Elan Enterprises     |X| |
+| Elan Enterprises     |X|X|
 | Laser 500            |X| |
 | OneChipMSX           |X|X|
 | MSX Favio B.         |X| |

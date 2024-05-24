@@ -414,6 +414,8 @@ Hippodrome|JTCOP|1989 Data East|X|X
 Robocop|JTCOP|1989 Data East|X|X
 Boulder Dash|JTSLYSPY|1989 Data East|X|X
 Secret Agent|JTSLYSPY|1989 Data East|X|X
+Air Assault|IREMM107|1989 Irem M107| |X
+Dream Soccer 94|IREMM107|1989 Irem M107| |X
 M.I.A. - Missing in Action|JTTMNT|1989 Konami|X|X
 Punk Shot|JTTMNT|1989 Konami|X|X
 Teenage Mutant Ninja Turtles|JTTMNT|1989 Konami|X|X

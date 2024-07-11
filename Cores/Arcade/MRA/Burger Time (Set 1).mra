@@ -60,17 +60,17 @@
 		<!-- audio cpu [$e000:$efff] -->
 		<part crc="f55e5211" name="ab14.12h"/>
 
-		<!-- background tilemaps -->
+		<!-- background map -->
 		<part crc="d26bc1f3" name="ab03.6b"/>
 		<part crc="d26bc1f3" name="ab03.6b"/>
 
-		<!-- gfx2 -->
+		<!-- gfx2 (background) -->
 		<part crc="c7a14485" name="ab00.1b"/>
 		<part crc="25b49078" name="ab01.3b"/>
 		<part crc="b8ef56c3" name="ab02.4b"/>
 		<part repeat="0x800">00</part>
 
-		<!-- gfx -->
+		<!-- gfx1 (fg/sprites) -->
 		<part crc="c4617243" name="aa12.7k"/>
 		<part crc="ac01042f" name="ab13.9k"/>
 		<part crc="854a872a" name="ab10.10k"/>

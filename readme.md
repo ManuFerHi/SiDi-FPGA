@@ -33,7 +33,7 @@ For purchase here -> https://manuferhi.com/
 | MAC Plus Too         |X|X|
 | Sinclair QL          |X| |
 | Sam Coupe            |X|X|
-| TI99/4A              |X| |
+| TI99/4A              |X|X|
 | Videoton             |X|X|
 | ZX Spectrum          |X|X|
 | ZX Spectrum Next     |X|X|

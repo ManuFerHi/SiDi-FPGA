@@ -21,7 +21,8 @@
         <dip name="Ship Invincibility" bits="15" ids="On,Off"/>
     </switches>
 
-    <buttons names="Cannon Beam,Formation,Start (1p),Start (2p),Coin,Pause" default="A,B,X,R,L,Start"/>
+  <num_buttons>2</num_buttons>
+  <buttons default="B,A,Start,Select" names="Cannon Beam,Formation,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="terracre.zip" md5="None">
 

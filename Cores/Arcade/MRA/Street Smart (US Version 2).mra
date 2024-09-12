@@ -23,7 +23,8 @@
         <dip name="Test Mode" bits="8" ids="Normal Game,Manual Test"/>
     </switches>
 
-    <buttons names="Kick,Jump,Punch,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start"/>
+    <num_buttons>3</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Kick,Jump,Punch,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="1">
         <part>02</part>

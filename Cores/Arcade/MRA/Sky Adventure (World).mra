@@ -20,7 +20,8 @@
         <dip name="Freeze" bits="13" ids="On,Off"/>
     </switches>
 
-    <buttons names="Normal Weapon,Special Weapon,-,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start"/>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,Start,Select" names="Normal Weapon,Special Weapon,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="skyadvnt.zip" md5="None">
 

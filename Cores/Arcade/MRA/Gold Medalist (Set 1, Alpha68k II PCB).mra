@@ -21,7 +21,8 @@
         <dip name="Demo Sounds" bits="13" ids="On,Off"/>
     </switches>
 
-    <buttons names="Run/Spin/Power,Run/Spin/Hit Power,Jump/Jab/Throw Angle,P1 Start,P2 Start,P3 Start,P4 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start,Select,R1,L1"/>
+    <num_buttons>3</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Run/Spin/Power,Run/Spin/Hit Power,Jump/Jab/Throw Angle,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="goldmedl.zip" md5="None">
 

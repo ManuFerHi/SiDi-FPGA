@@ -22,8 +22,8 @@
         <dip name="Lives" bits="12,13" ids="6,5,4,3"/>
     </switches>
 
-    <buttons names="Shot,Weapon,-,P1 Start,P2 Start,Coin A,Coin B,Pause,Rotate CW,Rotate CCW" default="A,B,X,Y,R,L,Start,Select,R1,L1"/>
-
+    <num_buttons>4</num_buttons>
+    <buttons default="B,A,X,Y,Start,Select" names="Shot,Weapon,Rotate CW,Rotate CCW,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="timesold.zip" md5="None">
 

@@ -22,7 +22,8 @@
         <dip name="Sprite Test" bits="15" ids="On,Off"/>
     </switches>
 
-    <buttons names="Sword Beam,Stop Bullet,Start (1p),Start (2p),Coin,Pause" default="A,B,X,R,L,Start"/>
+  <num_buttons>2</num_buttons>
+  <buttons default="B,A,Start,Select" names="Sword Beam,Stop Bullet,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="amatelas.zip|amazon.zip" md5="None">
 

@@ -8,6 +8,8 @@
 	<category>Adventure, Knights</category>
 	<category>Maze, Extra</category>
 	<rbf>druaga</rbf>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,Select" names="Sword,Shield,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="1">
 		<part>01</part>
 	</rom>

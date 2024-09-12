@@ -6,7 +6,8 @@
     <manufacturer>Williams</manufacturer>
     <setname>joust2</setname>
     <rbf>williams2</rbf>
-
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,Start,Select" names="Flap,Transform,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>1</part></rom>
 
     <rom index="0" zip="joust2.zip" md5="343c8f3f760b87535732525c747ac2b9" type="merged|nonmerged">

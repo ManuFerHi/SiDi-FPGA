@@ -6,7 +6,8 @@
     <manufacturer>Williams</manufacturer>
     <setname>inferno</setname>
     <rbf>williams2</rbf>
-
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,Start,Select" names="Fire1,Fire2,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>2</part></rom>
 
     <rom index="0" zip="inferno.zip" md5="76fb5decf2b3c4fb0ec08e8bd2a8db21" type="merged|nonmerged">

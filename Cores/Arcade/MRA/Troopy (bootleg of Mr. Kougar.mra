@@ -1,6 +1,8 @@
 <misterromdescription>
     <name>Troopy</name>
     <rbf>scramble</rbf>
+    <num_buttons>1</num_buttons>
+    <buttons default="B,Start,Select" names="Jump,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <switches>
 	<dip bits="7"  name="Lives"       ids="3,Unl"/>
     </switches>

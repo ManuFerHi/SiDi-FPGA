@@ -9,6 +9,8 @@
 	<category>Maze / Centipede</category>
 	<category>Maze / Spiders</category>
 	<rbf>centiped</rbf>
+	<num_buttons>1</num_buttons>
+	<buttons default="B,Start,Select" names="Fire,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<switches page_id="1" page_name="Switches" base="8" default="00,02">
 		<dip bits="0,1"   name="Language"       ids="English,German,French,Spanish"/>
 		<dip bits="2,3"   name="Lives"          ids="2,3,4,5"/>

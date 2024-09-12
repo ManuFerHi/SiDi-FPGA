@@ -23,8 +23,8 @@
   <dip name="Invulnerability" bits="14" ids="On,Off"/>
   <dip name="Unused" bits="15" ids="On,Off"/>
   </switches>
-
-  <buttons names="Up,Down,Left,Right,Start (1p),Start (2p),Coin (A),Coin (B),Pause" default="A,B,X,Y,R,L,Start,Select"/>
+  <num_buttons>4</num_buttons>
+  <buttons default="B,A,X,Y,Start,Select" names="Up,Down,Left,Right,-,-,Start,Coin,P2 Start,-"></buttons>
 
   <rom index="0" zip="cclimbr2.zip" md5="none">
 

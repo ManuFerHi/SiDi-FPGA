@@ -22,7 +22,8 @@
   <dip name="Allow Continue" bits="14,15" ids="Yes,Only 5 Times,Only 3 Times,No"/>
   </switches>
 
-  <buttons names="Cannon Beam,Hyper Missle,-,-,Start (1p),Start (2p),Coin (A),Coin (B),Pause" default="A,B,X,Y,R,L,Start,Select"/>
+  <num_buttons>2</num_buttons>
+  <buttons default="B,A,Start,Select" names="Cannon Beam,Hyper Missile,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
   <rom index="0" zip="terrafjb.zip|terraf.zip" md5="none">
 

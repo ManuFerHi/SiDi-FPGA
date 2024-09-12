@@ -24,7 +24,7 @@
 	<joystick>8-way</joystick>
 	<special_controls></special_controls>
 	<num_buttons>3</num_buttons>
-	<buttons names="Start 1P, Start 2P, A, B, Y, Coin A, Coin B" default="Start,Select,A,B,Y,R2,L2"></buttons>
+	<buttons default="B,A,X,Start,Select" names="Button1,Button2,Button3,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
 	<switches default="30,0e" base="16" page_id="1" page_name="Switches">
 

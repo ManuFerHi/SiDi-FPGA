@@ -15,7 +15,7 @@
 	<joystick>4-way</joystick>
 	<special_controls></special_controls>
 	<num_buttons>1</num_buttons>
-	<buttons names="Button1,Start1P,Start2P,CoinA,CoinB" default="A,Start,Select,R1,L1"></buttons>
+	<buttons default="B,Start,Select" names="Button 1,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="0" zip="mrjong.zip" md5="none">
 		<!-- main cpu -->
 		<part name="mj00" crc="d211aed3"/>

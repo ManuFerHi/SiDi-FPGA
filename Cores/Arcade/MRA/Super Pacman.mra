@@ -7,6 +7,8 @@
 	<category>Maze</category>
 	<rbf>druaga</rbf>
 	<mratimestamp>20210325</mratimestamp>
+	<num_buttons>1</num_buttons>
+	<buttons default="B,Start,Select" names="Super Speed,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="1">
 		<part>05</part>
 	</rom>

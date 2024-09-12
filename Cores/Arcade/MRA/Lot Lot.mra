@@ -4,6 +4,8 @@
     <setname>lotlot</setname>
     <manufacturer>Irem</manufacturer>
     <rbf>iremm62</rbf>
+    <num_buttons>1</num_buttons>
+    <buttons default="B,Start,Select" names="Swap,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>8</part></rom>
     <rom index="0" zip="lotlot.zip" md5="dbd20cd8f5d2555911090e62e4621920" type="merged|nonmerged">
       <!-- CPU1, 128k -->

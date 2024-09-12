@@ -21,7 +21,8 @@
         <dip name="Freeze" bits="13" ids="On,Off"/>
     </switches>
 
-    <buttons names="Kick,Punch,Jump,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start"/>
+    <num_buttons>3</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Kick,Punch,Jump,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="gangwars.zip" md5="None">
 

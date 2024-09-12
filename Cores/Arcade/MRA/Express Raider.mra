@@ -15,8 +15,8 @@
 	<players>2</players>
 	<joystick>8-way</joystick>
 	<special_controls></special_controls>
-	<num_buttons>4</num_buttons>
-	<buttons names="Button1,Button2,Start1P,Start2P,CoinA,CoinB" default="A,B,Start,Select,R1,L1"></buttons>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,Select" names="Punch/Fire,Kick/Duck,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
 	<switches default="ff,ff" page_id="1" page_name="Switches" base="8">
 		<dip bits="0" name="CoinA0" ids="0,1"/>

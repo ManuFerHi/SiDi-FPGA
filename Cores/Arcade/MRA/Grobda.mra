@@ -4,6 +4,8 @@
 	<setname>grobda</setname>
 	<mratimestamp>20210307</mratimestamp>
 	<rbf>druaga</rbf>
+	<num_buttons>2</num_buttons>
+	<buttons default="B,A,Start,Select" names="Fire,Shield,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="1">
 		<part>06</part>
 	</rom>

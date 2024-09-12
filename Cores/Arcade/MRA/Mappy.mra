@@ -8,6 +8,8 @@
 	<category>Maze, Cat and Mouse</category>
 	<category>Platform</category>
 	<rbf>druaga</rbf>
+	<num_buttons>1</num_buttons>
+	<buttons default="B,Start,Select" names="Door,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="1">
 		<part>02</part>
 	</rom>

@@ -24,7 +24,7 @@
 	<joystick>2-way</joystick>
 	<special_controls></special_controls>
 	<num_buttons>3</num_buttons>
-	<buttons names="Fire1,Fire2,Fire3,P1,Coin1,Coin2,Service,KW" default="Y,B,A,Start,R1,L1,R2,L2"></buttons>
+	<buttons default="B,A,X,Start,Select" names="Fire1,Fire2,Fire3,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
 	<switches default="fc" base="8" page_id="1" page_name="Switches">
 

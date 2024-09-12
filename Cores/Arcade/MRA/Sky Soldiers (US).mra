@@ -22,7 +22,8 @@
         <dip name="Lives" bits="12,13" ids="6,5,4,3"/>
     </switches>
 
-    <buttons names="Cannon System,Missle System,-,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start"/>
+    <num_buttons>2</num_buttons>
+    <buttons default="B,A,Start,Select" names="Cannon System,Missile System,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="skysoldr.zip" md5="None">
 

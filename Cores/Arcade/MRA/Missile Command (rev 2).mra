@@ -5,6 +5,8 @@
 	<year>1980</year>
 	<manufacturer>Atari Games</manufacturer>
 	<rbf>MissileC</rbf>
+	<num_buttons>3</num_buttons>
+	<buttons default="B,A,X,Start,Select" names="Fire,Left Fire,Middle Fire,-,-,-,Start,Coin,P2 Start,-"></buttons>
 	<rom index="0" zip="missile.zip|missile2.zip" md5="none">
 		<part crc="7a62ce6a" name="035820-02.h1"/>
 		<part crc="df3bd57f" name="035821-02.jk1"/>

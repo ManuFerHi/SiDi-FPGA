@@ -19,7 +19,8 @@
         <dip name="Demo Sounds" bits="13" ids="Off,On"/>
     </switches>
 
-    <buttons names="Swing/Pitch/Field,Steal/Pick Off/Run,Time-Out,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,L,Start"/>
+    <num_buttons>3</num_buttons>
+    <buttons default="B,A,X,Start,Select" names="Swing/Pitch/Field,Steal/Pick Off/Run,Time-Out,-,-,-,Start,Coin,P2 Start,-"></buttons>
 
     <rom index="0" zip="sbasebal.zip" md5="None">
 

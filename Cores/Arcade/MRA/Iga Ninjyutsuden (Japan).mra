@@ -1,0 +1,93 @@
+<misterromdescription>
+    <name>Iga Ninjyutsuden (Japan)</name>
+    <setname>iganinju</setname>
+    <rbf>megasys1_a</rbf>
+    <mameversion>0253</mameversion>
+    <year>1988</year>
+    <manufacturer>Jaleco</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>Horizontal</rotation>
+    <region>Japan</region>
+
+    <switches default="FF,FF" base="16" page_id="1" page_name="Switches">
+        <!-- DSW1 -->
+        <dip name="Coin A" bits="0,1" ids="Free Play,1/4,2/1,1/2,3/1,1/3,1/5,1/1"/>
+        <dip name="Coin B" bits="3,5" ids="4/1,1/4,2/1,1/2,3/1,1/3,1/5,1/1"/>
+        <dip name="Demo Sounds" bits="6" ids="On,Off"/>
+        <dip name="Freeze Screen (Cheat)" bits="7" ids="On,Off"/>
+        <!-- DSW2 -->
+        <dip name="Lives" bits="8,9" ids="Infinite,3,4,2"/>
+        <dip name="Bonus Life" bits="10" ids="200k,50k"/>
+        <dip name="Allow Continue" bits="11" ids="Off,On"/>
+        <dip name="Difficulty" bits="12,13" ids="Hardest,Harder,Hard,Normal"/>
+        <dip name="Cabinet" bits="14" ids="Upright,Cocktail"/>
+        <dip name="Flip Screen" bits="15" ids="On,Off"/>
+    </switches>
+
+    <buttons names="Attack,Jump,-,-,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,Start"/>
+
+    <rom index="1">
+        <part>0f</part>
+    </rom>
+
+    <rom index="3">
+        <part>10</part>
+    </rom>
+
+    <rom index="0" zip="iganinju.zip|kazan.zip" md5="None">
+        <!-- maincpu - starts at 0x0 -->
+        <interleave output="16">
+            <part name="iga_02.bin" crc="bd00c280" map="01"/>
+            <part name="iga_01.bin" crc="fa416a9e" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="iga_03.bin" crc="de5937ad" map="01"/>
+            <part name="iga_04.bin" crc="afaf0480" map="10"/>
+        </interleave>
+        <part repeat="0x20000"> FF</part>
+
+        <!-- audiocpu - starts at 0x80000 -->
+        <interleave output="16">
+            <part name="iga_05.bin" crc="13580868" map="01"/>
+            <part name="iga_06.bin" crc="7904d5dd" map="10"/>
+        </interleave>
+        <part repeat="0x60000"> FF</part>
+
+        <!-- oki1 - starts at 0x100000 -->
+        <part name="iga_10.bin" crc="67a89e0d"/>
+        <part repeat="0xC0000"> FF</part>
+
+        <!-- oki2 - starts at 0x200000 -->
+        <part name="iga_08.bin" crc="857dbf60"/>
+        <part repeat="0x40000"> FF</part>
+
+        <!-- scroll0 - starts at 0x280000 -->
+        <part name="iga_14.bin" crc="c707d513"/>
+        <part repeat="0x40000"> FF</part>
+
+        <!-- scroll1 - starts at 0x300000 -->
+        <part name="iga_18.bin" crc="6c727519"/>
+
+        <!-- scroll2 - starts at 0x380000 -->
+        <part name="iga_19.bin" crc="98a7e998"/>
+        <part repeat="0x60000"> FF</part>
+
+        <!-- sprites - starts at 0x400000 -->
+        <part name="iga_23.bin" crc="fb58c5f4"/>
+        <part repeat="0x80000"> FF</part>
+
+        <!-- proms - starts at 0x500000 -->
+        <part name="iga.14m" crc="1d877538"/>
+
+        <!-- Total 0x500200 bytes - 5120 kBytes -->
+
+        <part>
+            00 00 41 32   00 00 24 13   00 00 31 42   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+        </part>
+
+    </rom>
+</misterromdescription>

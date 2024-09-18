@@ -1,0 +1,103 @@
+<misterromdescription>
+    <name>Plus Alpha</name>
+    <setname>plusalph</setname>
+    <rbf>megasys1_a</rbf>
+    <mameversion>0253</mameversion>
+    <year>1989</year>
+    <manufacturer>Jaleco</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>Vertical (CCW)</rotation>
+    <region>Japan</region>
+
+    <switches default="FF,3F" base="16" page_id="1" page_name="Switches">
+        <!-- DSW1 -->
+        <dip name="Coin A" bits="0,2" ids="Free Play,1/4,2/1,1/2,3/1,1/3,1/5,1/1"/>
+        <dip name="Coin B" bits="3,5" ids="4/1,1/4,2/1,1/2,3/1,1/3,1/5,1/1"/>
+        <dip name="Demo Sounds" bits="6" ids="Off,On"/>
+        <dip name="Freeze Screen" bits="7" ids="On,Off"/>
+        <!-- DSW2 -->
+        <dip name="Lives" bits="8,9" ids="Infinite,5,4,3"/>
+        <dip name="Hyper Laser Beams" bits="10" ids="2,3"/>
+        <dip name="Bonus Life" bits="11" ids="100/300k,70k/200k(E)"/>
+        <dip name="Difficulty" bits="12,13" ids="1,3,4,2"/>
+        <dip name="Mode" bits="14" ids="Upright,Table"/>
+        <dip name="Flip Screen" bits="15" ids="On,Off"/>
+    </switches>
+
+    <buttons names="Hyper Shot,Hyper Laser Beam,-,-,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,Start"/>
+
+    <rom index="1">
+        <part>0e</part>
+    </rom>
+
+    <rom index="3">
+        <part>10</part>
+    </rom>
+
+    <rom index="0" zip="plusalph.zip" md5="None">
+        <!-- maincpu - starts at 0x0 -->
+        <interleave output="16">
+            <part name="pa-rom2.bin" crc="33244799" map="01"/>
+            <part name="pa-rom1.bin" crc="a32fdcae" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="pa-rom3.bin" crc="1b739835" map="01"/>
+            <part name="pa-rom4.bin" crc="ff760e80" map="10"/>
+        </interleave>
+        <part repeat="0x20000"> FF</part>
+
+        <!-- audiocpu - starts at 0x80000 -->
+        <interleave output="16">
+            <part name="pa-rom5.bin" crc="ddc2739b" map="01"/>
+            <part name="pa-rom6.bin" crc="f6f8a167" map="10"/>
+        </interleave>
+        <part repeat="0x60000"> FF</part>
+
+        <!-- oki1 - starts at 0x100000 -->
+        <part name="pa-rom9.bin" crc="065364bd"/>
+        <part name="pa-rom10.bin" crc="395df3b2"/>
+        <part repeat="0xC0000"> FF</part>
+
+        <!-- oki2 - starts at 0x200000 -->
+        <part name="pa-rom7.bin" crc="9f5d800e"/>
+        <part name="pa-rom8.bin" crc="ae007750"/>
+        <part repeat="0x40000"> FF</part>
+
+        <!-- scroll0 - starts at 0x280000 -->
+        <part name="pa-rom11.bin" crc="eb709ae7"/>
+        <part name="pa-rom12.bin" crc="cacbc350"/>
+        <part name="pa-rom13.bin" crc="fad093dd"/>
+        <part name="pa-rom14.bin" crc="d3676cd1"/>
+
+        <!-- scroll1 - starts at 0x300000 -->
+        <part name="pa-rom15.bin" crc="8787735b"/>
+        <part name="pa-rom16.bin" crc="a06b813b"/>
+        <part name="pa-rom17.bin" crc="c6b38a4b"/>
+        <part repeat="0x20000"> FF</part>
+
+        <!-- scroll2 - starts at 0x380000 -->
+        <part name="pa-rom19.bin" crc="39ef193c"/>
+        <part repeat="0x70000"> FF</part>
+
+        <!-- sprites - starts at 0x400000 -->
+        <part name="pa-rom20.bin" crc="86c557a8"/>
+        <part name="pa-rom21.bin" crc="81140a88"/>
+        <part name="pa-rom22.bin" crc="97e39886"/>
+        <part name="pa-rom23.bin" crc="0383fb65"/>
+        <part repeat="0x80000"> FF</part>
+
+        <!-- proms - starts at 0x500000 -->
+        <part name="prom.14m" crc="1d877538"/>
+
+        <!-- Total 0x500200 bytes - 5120 kBytes -->
+
+        <part>
+            00 00 41 32   00 00 24 13   00 00 31 42   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+        </part>
+
+    </rom>
+</misterromdescription>

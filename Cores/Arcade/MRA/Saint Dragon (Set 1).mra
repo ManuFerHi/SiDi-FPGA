@@ -1,0 +1,95 @@
+<misterromdescription>
+    <name>Saint Dragon (Set 1)</name>
+    <setname>stdragon</setname>
+    <rbf>megasys1_a</rbf>
+    <mameversion>0253</mameversion>
+    <year>1990</year>
+    <manufacturer>Jaleco</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>Horizontal</rotation>
+    <region>Japan</region>
+
+    <switches default="BF,FF" base="16" page_id="1" page_name="Switches">
+        <!-- DSW1 -->
+        <dip name="Coin A" bits="0,2" ids="Free Play,4/1,3/1,2/1,1/4,1/3,1/2,1/1"/>
+        <dip name="Coin B" bits="3,5" ids="Free Play,4/1,3/1,2/1,1/4,1/3,1/2,1/1"/>
+        <dip name="Demo Sounds" bits="6" ids="Off,On"/>
+        <!-- DSW2 -->
+        <dip name="Player Count" bits="8,9" ids="5,4,2,3"/>
+        <dip name="Difficulty" bits="12,13" ids="Hardest,Hard,Easy,Normal"/>
+        <dip name="Mode" bits="14" ids="Table,Upright"/>
+        <dip name="Flip Screen" bits="15" ids="On,Off"/>
+    </switches>
+
+    <buttons names="Shot 1,Shot 2,-,-,P1 Start,P2 Start,Coin A,Coin B,Pause" default="A,B,X,Y,R,Start"/>
+
+    <rom index="1">
+        <part>0b</part>
+    </rom>
+
+    <rom index="3">
+        <part>5a</part>
+    </rom>
+
+    <rom index="0" zip="stdragon.zip" md5="None">
+        <!-- maincpu - starts at 0x0 -->
+        <interleave output="16">
+            <part name="jsd-02.bin" crc="cc29ab19" map="01"/>
+            <part name="jsd-01.bin" crc="67429a57" map="10"/>
+        </interleave>
+        <part repeat="0x40000"> FF</part>
+
+        <!-- audiocpu - starts at 0x80000 -->
+        <interleave output="16">
+            <part name="jsd-05.bin" crc="8c04feaa" map="01"/>
+            <part name="jsd-06.bin" crc="0bb62f3a" map="10"/>
+        </interleave>
+        <part repeat="0x60000"> FF</part>
+
+        <!-- oki1 - starts at 0x100000 -->
+        <part name="jsd-09.bin" crc="e366bc5a"/>
+        <part name="jsd-10.bin" crc="4a8f4fe6"/>
+        <part repeat="0xC0000"> FF</part>
+
+        <!-- oki2 - starts at 0x200000 -->
+        <part name="jsd-07.bin" crc="6a48e979"/>
+        <part name="jsd-08.bin" crc="40704962"/>
+        <part repeat="0x40000"> FF</part>
+
+        <!-- scroll0 - starts at 0x280000 -->
+        <part name="jsd-11.bin" crc="2783b7b1"/>
+        <part name="jsd-12.bin" crc="89466ab7"/>
+        <part name="jsd-13.bin" crc="9896ae82"/>
+        <part name="jsd-14.bin" crc="7e8da371"/>
+
+        <!-- scroll1 - starts at 0x300000 -->
+        <part name="jsd-15.bin" crc="e296bf59"/>
+        <part name="jsd-16.bin" crc="d8919c06"/>
+        <part name="jsd-17.bin" crc="4f7ad563"/>
+        <part name="jsd-18.bin" crc="1f4da822"/>
+
+        <!-- scroll2 - starts at 0x380000 -->
+        <part name="jsd-19.bin" crc="25ce807d"/>
+        <part repeat="0x70000"> FF</part>
+
+        <!-- sprites - starts at 0x400000 -->
+        <part name="jsd-20.bin" crc="2c6e93bb"/>
+        <part name="jsd-21.bin" crc="864bcc61"/>
+        <part name="jsd-22.bin" crc="44fe2547"/>
+        <part name="jsd-23.bin" crc="6b010e1a"/>
+        <part repeat="0x80000"> FF</part>
+
+        <!-- proms - starts at 0x500000 -->
+        <part name="prom.14m" crc="1d877538"/>
+
+        <!-- Total 0x500200 bytes - 5120 kBytes -->
+        <part>
+            00 00 41 32   00 00 24 13   00 00 31 42   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+            00 00 ff ff   00 00 ff ff   00 00 ff ff   00 00 ff ff
+        </part>
+
+    </rom>
+</misterromdescription>

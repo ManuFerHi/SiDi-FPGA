@@ -44,6 +44,15 @@ Joysticks
 Two analog joysticks are supported on ADC channels 1-4. Digital joysticks
 are mapped to max/min values.
 
+Floppy images (Master mode only)
+--------------------------------
+
+A WD1770 compatible FDC is available in Master mode. It supports the SSD (single side) and DSD (double side) image formats. These images are 10 sectors/track (FM) images. MFM currently not supported. These images are usually made for the DFS filing system, thus to work with them, changing from the default MMFS to DFS is needed:
+
+*CO. FILE 9
+
+This command selects ROM slot 9 for the default filing system. It can be saved permanently via the "Save CMOS" option in the OSD. After a reset, DFS will be the default. The easiest way to boot from floppy is to set Auto boot to ON, and press reset (or simply hold SHIFT and press PrtScrn).
+
 Games
 -----
 New to the BBC? Here's a selection of the best games to try: Arcadians, Chuckie Egg, Elite, Monsters, Planetoid, Snapper.

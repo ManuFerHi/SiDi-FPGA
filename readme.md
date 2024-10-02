@@ -37,7 +37,7 @@ For purchase here -> https://manuferhi.com/
 | Videoton             |X|X|
 | ZX Spectrum          |X|X|
 | ZX Spectrum Next     |X|X|
-| ZX Spectrum TSconf   | |X|
+| ZX Spectrum TSconf   |X|X|
 | ZX8X                 |X|X|
 
 |    Console cores    | SiDi | SiDi128 |

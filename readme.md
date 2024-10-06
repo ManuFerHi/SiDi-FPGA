@@ -29,7 +29,7 @@ For purchase here -> https://manuferhi.com/
 | MSX Favio B.         |X| |
 | Mattel Aquarius      |X| |
 | Next186 PC           |X|X|
-| Oric Atmos           |X| |
+| Oric Atmos           |X|X|
 | MAC Plus Too         |X|X|
 | Sinclair QL          |X| |
 | Sam Coupe            |X|X|

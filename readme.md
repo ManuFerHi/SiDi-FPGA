@@ -31,7 +31,7 @@ For purchase here -> https://manuferhi.com/
 | Next186 PC           |X|X|
 | Oric Atmos           |X|X|
 | MAC Plus Too         |X|X|
-| Sinclair QL          |X| |
+| Sinclair QL          |X|X|
 | Sam Coupe            |X|X|
 | TI99/4A              |X|X|
 | Videoton             |X|X|

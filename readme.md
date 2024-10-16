@@ -57,7 +57,7 @@ For purchase here -> https://manuferhi.com/
 | Playstation         | |X|
 | Sega Master System  |X|X|
 | SNES                |X|X|
-| Videopac            |X| |
+| Videopac            |X|X|
 | Vectrex             |X| |
 
 

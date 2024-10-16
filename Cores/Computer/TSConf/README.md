@@ -2,6 +2,7 @@
 
 This is the port of TSConf (advanced ZX Spectrum-compatible platform) to [MiST](https://github.com/mist-devel/mist-board) and [MiST.1010](https://github.com/UzixLS/mist1010-board).
 
+SiDi128 port  by rampa069 https://github.com/BigMist/TSConf
 ## Features of this port
 - VDAC 1
 - RTC

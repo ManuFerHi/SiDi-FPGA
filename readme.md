@@ -26,7 +26,7 @@ For purchase here -> https://manuferhi.com/
 | Elan Enterprises     |X|X|
 | Laser 500            |X| |
 | OneChipMSX           |X|X|
-| MSX Favio B.         |X| |
+| MSX Favio B.         |X|X|
 | Mattel Aquarius      |X| |
 | Next186 PC           |X|X|
 | Oric Atmos           |X|X|

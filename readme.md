@@ -9,6 +9,7 @@ For purchase here -> https://manuferhi.com/
 | -------------------- | ---- | ------- |
 | Amiga / Minimig      |X|X|
 | Amstrad CPC          |X|X|
+| Amstrad PCW          | |X|
 | Apple I              |X| |
 | Apple IIe            |X|X|
 | Archimedes           |X|X|

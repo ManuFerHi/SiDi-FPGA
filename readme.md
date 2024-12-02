@@ -40,6 +40,7 @@ For purchase here -> https://manuferhi.com/
 | ZX Spectrum Next     |X|X|
 | ZX Spectrum TSconf   |X|X|
 | ZX8X                 |X|X|
+| X68000               | |X|
 
 |    Console cores    | SiDi | SiDi128 |
 | ------------------- | ---- | ------- |

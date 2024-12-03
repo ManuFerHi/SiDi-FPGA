@@ -26,6 +26,7 @@ For purchase here -> https://manuferhi.com/
 | Color Computer 3     |X| |
 | Elan Enterprises     |X|X|
 | Laser 500            |X| |
+| Luxor ABC80          | |X|
 | OneChipMSX           |X|X|
 | MSX Favio B.         |X|X|
 | Mattel Aquarius      |X| |

@@ -9,6 +9,7 @@ For purchase here -> https://manuferhi.com/
 | -------------------- | ---- | ------- |
 | Amiga / Minimig      |X|X|
 | Amstrad CPC          |X|X|
+| Amstrad PCW          | |X|
 | Apple I              |X| |
 | Apple IIe            |X|X|
 | Archimedes           |X|X|
@@ -25,8 +26,9 @@ For purchase here -> https://manuferhi.com/
 | Color Computer 3     |X| |
 | Elan Enterprises     |X|X|
 | Laser 500            |X| |
+| Luxor ABC80          | |X|
 | OneChipMSX           |X|X|
-| MSX Favio B.         |X| |
+| MSX Favio B.         |X|X|
 | Mattel Aquarius      |X| |
 | Next186 PC           |X|X|
 | Oric Atmos           |X|X|
@@ -39,6 +41,7 @@ For purchase here -> https://manuferhi.com/
 | ZX Spectrum Next     |X|X|
 | ZX Spectrum TSconf   |X|X|
 | ZX8X                 |X|X|
+| X68000               | |X|
 
 |    Console cores    | SiDi | SiDi128 |
 | ------------------- | ---- | ------- |
@@ -57,7 +60,7 @@ For purchase here -> https://manuferhi.com/
 | Playstation         | |X|
 | Sega Master System  |X|X|
 | SNES                |X|X|
-| Videopac            |X| |
+| Videopac            |X|X|
 | Vectrex             |X| |
 
 

@@ -20,11 +20,12 @@ For purchase here -> https://manuferhi.com/
 | Coleco Adam          | |X|
 | Commodore 16         |X|X|
 | Commodore 64         |X|X|
-| Commodore PET        |X| |
+| Commodore PET2001    |X|X|
 | Commodore VIC20      |X|X|
 | Camputers Lynx       |X| |
 | Color Computer 3     |X| |
-| Elan Enterprises     |X|X|
+| Elan Enterprise      |X|X|
+| Exidy Sorcerer       | |X|
 | Laser 500            |X| |
 | Luxor ABC80          | |X|
 | OneChipMSX           |X|X|

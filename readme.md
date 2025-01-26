@@ -23,6 +23,7 @@ For purchase here -> https://manuferhi.com/
 | Commodore PET2001    |X|X|
 | Commodore VIC20      |X|X|
 | Camputers Lynx       |X| |
+| Color Computer 2     | |X|
 | Color Computer 3     |X| |
 | Elan Enterprise      |X|X|
 | Exidy Sorcerer       | |X|

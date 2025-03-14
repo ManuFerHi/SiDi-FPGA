@@ -1,5 +1,10 @@
 For uddate your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
 
+## firmware_250314
+------------------
+- Support prof'I'le strings in cores
+- Allow selecting IDE hardfiles from the OSD
+
 ## Firmware 241104
 ------------------
 - two new modes for amiga_mod_keys (by robinsonb5)

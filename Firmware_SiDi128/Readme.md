@@ -1,4 +1,11 @@
-For uddate your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
+For update your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
+
+## firmware_250907
+------------------
+- CFG_FILE_N option to arc files for Minimig (Eugene Lozovoy)
+- Custom file processor framework (Manuel Teira)
+- MMC DMA Read/Write fix for unaligned buffers
+- Handle Ultimate2-style IDX files for C64 TAP files
 
 ## firmware_250604
 ------------------

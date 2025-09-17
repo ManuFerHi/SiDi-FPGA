@@ -19,14 +19,14 @@
         <rom index="1">
                 <part>06</part>
         </rom>
-	<rom index="0" zip="devilfsh.zip" md5="3af9bea33dc72c07afb13e17e588289d" type="merged">
-		<part name="devilfsg/dfish1.7f"/>
-		<part name="devilfsg/dfish2.7h"/>
-		<part name="devilfsg/dfish3.7k"/>
-		<part name="devilfsg/dfish4.7m"/>
-		<part name="devilfsg/dfish5.1h"/>
-		<part name="devilfsg/dfish6.1k"/>
-		<part name="c01s.6e"/>
+	<rom index="0" zip="devilfsh.zip" md5="adae93be5b4b0362c489c372e3637cbd" type="merged">
+		<part name="devilfshgb/dfish1.7f" crc="2ab19698"/>
+		<part name="devilfshgb/dfish2.7h" crc="4e77f097"/>
+		<part name="devilfshgb/dfish3.7k" crc="3f16a4c6"/>
+		<part name="devilfshgb/dfish4.7m" crc="11fc7e59"/>
+		<part name="devilfshgb/dfish5.1h" crc="ace6e31f"/>
+		<part name="devilfshgb/dfish6.1k" crc="d7a6c4c4"/>
+		<part name="devilfsg/mmi6331.6l" crc="6a0c7d87"/>
 	</rom>
 	<rom index="0" zip="devilfsg.zip" md5="3af9bea33dc72c07afb13e17e588289d" type="nonmerged">
 		<part name="dfish1.7f"/>

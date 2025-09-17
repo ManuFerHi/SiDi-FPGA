@@ -7,20 +7,19 @@
     <buttons default="Start,Select" names="-,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>3</part></rom>
     <rom index="0" zip="bubbles.zip" md5="6b23d478539f579c4ffe30cae83c28d8" type="merged">
-	<part name="bubbles.1b"/>
-	<part name="bubbles.2b"/>
-	<part name="bubbles.3b"/>
-	<part name="bubbles.4b"/>
-	<part name="bubbles.5b"/>
-	<part name="bubbles.6b"/>
-	<part name="bubbles.7b"/>
-	<part name="bubbles.8b"/>
-	<part name="bubbles.9b"/>
-	<part name="bubbles.10b"/>
-	<part name="bubbles.11b"/>
-	<part name="bubbles.12b"/>
-
-	<part name="bubbles.snd"/>
+	<part crc="8234f55c" name="bubbles.1b"></part>
+	<part crc="4a188d6a" name="bubbles.2b"></part>
+	<part crc="7728f07f" name="bubbles.3b"></part>
+	<part crc="040be7f9" name="bubbles.4b"></part>
+	<part crc="0b5f29e0" name="bubbles.5b"></part>
+	<part crc="4dd0450d" name="bubbles.6b"></part>
+	<part crc="e0a26ec0" name="bubbles.7b"></part>
+	<part crc="4fd23d8d" name="bubbles.8b"></part>
+	<part crc="b48559fb" name="bubbles.9b"></part>
+	<part crc="26e7869b" name="bubbles.10b"></part>
+	<part crc="5a5b572f" name="bubbles.11b"></part>
+	<part crc="ce22d2e2" name="bubbles.12b"></part>
+	<part crc="689ce2aa" name="bubbles.snd"></part>
 	<part>
 		02 25 00 03 00 01 00 03 00 01 00 04 00 01 00 01 
 		00 00 00 00 00 05 00 03 00 00 00 00 00 00 00 00 

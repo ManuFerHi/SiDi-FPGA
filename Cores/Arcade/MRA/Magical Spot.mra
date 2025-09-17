@@ -6,6 +6,7 @@
 	<manufacturer>Universal</manufacturer>
 	<category>Garden</category>
 	<rbf>cosmic</rbf>
+	<setname>magspot</setname>
 	<buttons names="Fire,-,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L"/>
 	<switches default="00,0F,00" base="8">
 		<dip bits="0,1"   	name="Bonus life"  ids="None,2000,3000,4000"/>

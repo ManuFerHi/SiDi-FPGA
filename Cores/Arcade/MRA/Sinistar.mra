@@ -7,20 +7,19 @@
     <buttons default="B,A,Start,Select" names="Fire,Sinibomb,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>6</part></rom>
     <rom index="0" zip="sinistar.zip" md5="d1801e21859efdeabb8d713acbe5db99" type="merged">
-	<part name="sinistar.01"/>
-	<part name="sinistar.02"/>
-	<part name="sinistar.03"/>
-	<part name="sinistar.04"/>
-	<part name="sinistar.05"/>
-	<part name="sinistar.06"/>
-	<part name="sinistar.07"/>
-	<part name="sinistar.08"/>
-	<part name="sinistar.09"/>
-	<part name="sinistar.10"/>
-	<part name="sinistar.10"/>
-	<part name="sinistar.11"/>
-
-	<part name="sinistar.snd"/>
+	<part crc="f6f3a22c" name="sinistar.01"></part>
+	<part crc="cab3185c" name="sinistar.02"></part>
+	<part crc="1ce1b3cc" name="sinistar.03"></part>
+	<part crc="6da632ba" name="sinistar.04"></part>
+	<part crc="b662e8fc" name="sinistar.05"></part>
+	<part crc="2306183d" name="sinistar.06"></part>
+	<part crc="e5dd918e" name="sinistar.07"></part>
+	<part crc="4785a787" name="sinistar.08"></part>
+	<part crc="50cb63ad" name="sinistar.09"></part>
+	<part crc="3d670417" name="sinistar.10"></part>
+	<part crc="3d670417" name="sinistar.10"></part>
+	<part crc="3162bc50" name="sinistar.11"></part>
+	<part crc="b82f4ddb" name="sinistar.snd"></part>
 	<part>
 03 30 03 30 00 03 00 05 00 01 00 01 00 03 00 01
 00 04 00 01 00 01 00 00 00 00 00 00 00 00 00 00

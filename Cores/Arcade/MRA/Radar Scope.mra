@@ -15,47 +15,38 @@
 		<dip bits="7"      name="Cabinet" ids="Cocktail,Upright"/>
 	</switches>
 	<rom index="1"><part>04</part></rom>
-	<rom index="0" zip="radarscp.zip" md5="4b295564ddde03ac8b9f98475a36caf8">
+	<rom index="0" zip="radarscp.zip" md5="a87e63dce702f221d0ae1914211ab060">
 		<!-- Main CPU 32k -->
-		<part name="trs2c5fc"/>
-		<part name="trs2c5gc"/>
-		<part name="trs2c5hc"/>
-		<part name="trs2c5kc"/>
-		<part name="trs2c5fc"/>
-		<part name="trs2c5gc"/>
-		<part name="trs2c5hc"/>
-		<part name="trs2c5kc"/>
+		<part crc="80bbcbb3" name="trs2c5fd"></part>
+		<part crc="afa8c49f" name="trs2c5gd"></part>
+		<part crc="e3ad4239" name="trs2c5hd"></part>
+		<part crc="260a3ec4" name="trs2c5kd"></part>
+		<part crc="80bbcbb3" name="trs2c5fd"></part>
+		<part crc="afa8c49f" name="trs2c5gd"></part>
+		<part crc="e3ad4239" name="trs2c5hd"></part>
+		<part crc="260a3ec4" name="trs2c5kd"></part>
 
 		<!-- GFX1 8k -->
-		<part name="trs2v3gc"/>
-		<part name="trs2v3gc"/>
-		<part name="trs2v3hc"/>
-		<part name="trs2v3hc"/>
+		<part crc="f095330e" name="trs2v3gc" repeat="2"></part>
+		<part crc="15a316f0" name="trs2v3hc" repeat="2"></part>
 
 		<!-- GFX2 16k -->
-		<part name="trs2v3dc"/>
-		<part name="trs2v3dc"/>
-		<part name="trs2v3cc"/>
-		<part name="trs2v3cc"/>
-		<part name="trs2v3bc"/>
-		<part name="trs2v3bc"/>
-		<part name="trs2v3ac"/>
-		<part name="trs2v3ac"/>
+		<part crc="e0bb0db9" name="trs2v3dc" repeat="2"></part>
+		<part crc="6c4e7dad" name="trs2v3cc" repeat="2"></part>
+		<part crc="6fdd63f1" name="trs2v3bc" repeat="2"></part>
+		<part crc="bbf62755" name="trs2v3ac" repeat="2"></part>
 
 		<!-- Sound CPU 4k -->
-		<part name="trs2s3i"/>
-		<part name="trs2s3i"/>
+		<part crc="78034f14" name="trs2s3i" repeat="2"></part>
 
 		<!-- LUTs 3x256 -->
-		<part name="rs2-x.xxx"/>
-		<part name="rs2-x.xxx"/>
-		<part name="rs2-c.xxx"/>
-		<part name="rs2-c.xxx"/>
-		<part name="rs2-v.1hc"/>
+		<part crc="54609d61" name="rs2-x.xxx" repeat="2"></part>
+		<part crc="79a7d831" name="rs2-c.xxx" repeat="2"></part>
+		<part crc="1b828315" name="rs2-v.1hc"></part>
 		<part repeat="768">00</part>
 
 		<!-- Star/radar timing -->
-		<part name="trs2v3ec"/>
+		<part crc="0eca8d6b" name="trs2v3ec"></part>
 
 		<!-- WAWs -->
 		<part>

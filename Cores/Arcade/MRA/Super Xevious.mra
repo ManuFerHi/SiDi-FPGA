@@ -16,36 +16,36 @@
   </switches>
 
   <rom index="1"><part>1</part></rom>
-  <rom index="0" zip="xevious.zip" md5="1b707668eb52408088e47c0f823f9fed">
+  <rom index="0" zip="xevious.zip|sxevious.zip" md5="37de8e44c1eaf93ff7de50f3e70d7d6f">
     <!-- CPU1 -->
-    <part name="sxevious/cpu_3p.rom"/>
-    <part name="sxevious/cpu_3m.rom"/>
-    <part name="sxevious/xv3_3.2m"/>
-    <part name="sxevious/xv3_4.2l"/>
+    <part name="sxevious/cpu_3p.rom" crc="1c8d27d5"/>
+    <part name="sxevious/cpu_3m.rom" crc="fd04e615"/>
+    <part name="sxevious/xv3_3.2m"   crc="294d5404"/>
+    <part name="sxevious/xv3_4.2l"   crc="6a44bf92"/>
 
     <!-- CPU2 -->
-    <part name="sxevious/xv3_5.3f"/>
-    <part name="sxevious/xv3_6.3j"/>
+    <part name="sxevious/xv3_5.3f"   crc="d4bd3d81"/>
+    <part name="sxevious/xv3_6.3j"   crc="af06be5f"/>
 
     <!-- CPU3 -->
-    <part name="xvi_7.2c"/>
+    <part name="xvi_7.2c"            crc="dd35cf1c"/>
 
     <!-- Foreground -->
-    <part name="xvi_12.3b"/>
+    <part name="xvi_12.3b"           crc="088c8b26"/>
 
     <!-- Background pattern -->
-    <part name="xvi_13.3c"/>
-    <part name="xvi_14.3d"/>
+    <part name="xvi_13.3c"           crc="de60ba25"/>
+    <part name="xvi_14.3d"           crc="535cdbbc"/>
 
     <!-- Sprites -->
-    <part name="xvi_15.4m"/>
-    <part name="xvi_17.4p"/>
-    <part name="xvi_16.4n"/>
-    <part name="xvi_18.4r"/>
+    <part name="xvi_15.4m"           crc="dc2c0ecb"/>
+    <part name="xvi_17.4p"           crc="dfb587ce"/>
+    <part name="xvi_16.4n"           crc="605ca889"/>
+    <part name="xvi_18.4r"           crc="02417d19"/>
 
     <!-- Background tilemaps -->
-    <part name="xvi_9.2a"/>
-    <part name="xvi_10.2b"/>
-    <part name="xvi_11.2c"/>
+    <part name="xvi_9.2a"            crc="57ed9879"/>
+    <part name="xvi_10.2b"           crc="ae3ba9e5"/>
+    <part name="xvi_11.2c"           crc="31e244dd"/>
   </rom>
 </misterromdescription>

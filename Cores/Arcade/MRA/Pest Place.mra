@@ -19,32 +19,32 @@
 	</switches>
 
 	<rom index="1"><part>09</part></rom>
-	<rom index="0" zip="pestplce.zip" md5="48576fcf2767241441d662768cc53899" type="merged|nonmerged">
+	<rom index="0" zip="pestplce.zip|mario.zip" md5="48576fcf2767241441d662768cc53899" type="merged|nonmerged">
 		<!-- Main CPU 32k-->
-		<part name="pest.1p"/>
-		<part name="pest.2p"/>
-		<part name="pest.3p"/>
-		<part name="pest.0"/>
-		<part name="pest.0"/>
+		<part name="pest.1p" crc="80d50721"/>
+		<part name="pest.2p" crc="9c3681cc"/>
+		<part name="pest.3p" crc="49853922"/>
+		<part name="pest.0"  crc="28952b56"/>
+		<part name="pest.0"  crc="28952b56"/>
 
 		<!-- GFX1 8k-->
-		<part name="pest.o"/>
-		<part name="pest.k"/>
+		<part name="pest.o" crc="03939ece"/>
+		<part name="pest.k" crc="2acacedf"/>
 
 		<!-- GFX2 16k-->
-		<part name="pest.b"/>
-		<part name="pest.a"/>
-		<part name="pest.d"/>
-		<part name="pest.c"/>
+		<part name="pest.b" crc="e760073e"/>
+		<part name="pest.a" crc="1958346e"/>
+		<part name="pest.d" crc="3a993c17"/>
+		<part name="pest.c" crc="bf08f2a3"/>
 
 		<!-- Sound CPU 4k-->
-		<part name="pest.4"/>
+		<part name="pest.4" crc="715da5f8"/>
 
 		<!-- LUTs -->
-		<part name="n82s129a.bin"/>
-		<part name="n82s129a.bin"/>
-		<part name="n82s129b.bin"/>
-		<part name="n82s129b.bin"/>
+		<part name="n82s129a.bin" crc="0330f35f"/>
+		<part name="n82s129a.bin" crc="0330f35f"/>
+		<part name="n82s129b.bin" crc="ba88311b"/>
+		<part name="n82s129b.bin" crc="ba88311b"/>
 		<part repeat="3072">00</part>
 	</rom>
 </misterromdescription>

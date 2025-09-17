@@ -17,22 +17,22 @@
     </switches>
 
     <rom index="0" zip="defender.zip" md5="2173eef0c95ff44752cd36981c909c6d" type="merged|nonmerged">
-	<part name="defend.1"/>
-	<part name="defend.4"/>
-	<part name="defend.2"/>
-	<part name="defend.3"/>
-	<part name="defend.9"/>
-	<part name="defend.12"/>
-	<part name="defend.8"/>
-	<part name="defend.11"/>
-	<part name="defend.7"/>
-	<part name="defend.10"/>
-	<part name="defend.6"/>
-	<part name="defend.6"/>
+	<part crc="c3e52d7e" name="defend.1"></part>
+	<part crc="9a72348b" name="defend.4"></part>
+	<part crc="89b75984" name="defend.2"></part>
+	<part crc="94f51e9b" name="defend.3"></part>
+	<part crc="6870e8a5" name="defend.9"></part>
+	<part crc="f1f88938" name="defend.12"></part>
+	<part crc="b649e306" name="defend.8"></part>
+	<part crc="9deaf6d9" name="defend.11"></part>
+	<part crc="339e092e" name="defend.7"></part>
+	<part crc="a543b167" name="defend.10"></part>
+	<part crc="65f4efd1" name="defend.6"></part>
+	<part crc="65f4efd1" name="defend.6"></part>
 
-	<part name="decoder.2"/>
-	<part name="decoder.3"/>
+	<part crc="8dd98da5" name="decoder.2"></part>
+	<part crc="c3f45f70" name="decoder.3"></part>
 
-	<part name="defend.snd"/>
+	<part crc="fefd5b48" name="defend.snd"></part>
     </rom>
 </misterromdescription>

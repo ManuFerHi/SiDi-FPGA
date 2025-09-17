@@ -17,18 +17,19 @@
 		<part>01</part>
 	</rom>  
 	<rom index="0" zip="mooncrst.zip" md5="abd1d6477749713797d44d6425642e58" type="merged">
-		<part name="mooncrgx/1"/>
-		<part name="mooncrgx/2"/>
-		<part name="mooncrgx/3"/>
-		<part name="mooncrgx/4"/>
-		<part name="mooncrgx/5"/>
-		<part name="mooncrgx/6"/>
-		<part name="mooncrgx/7"/>
-		<part name="mooncrgx/8"/>
-		<part name="fantazia/1h_1_10.bin"/>
-		<part name="mooncptc/mc14.bin"/>
-		<part name="mooncrgx/9.chr"/>
-		<part name="mooncptc/mc13.bin"/>
-                <part name="mmi6331.6l"/>
+		<part crc="84cf420b" name="1"></part>
+		<part crc="4c2a61a1" name="2"></part>
+		<part crc="1962523a" name="3"></part>
+		<part crc="75dca896" name="4"></part>
+		<part crc="32483039" name="5"></part>
+		<part crc="43f2ab89" name="6"></part>
+		<part crc="1e9c168c" name="7"></part>
+		<part crc="5e09da94" name="8"></part>
+		<part crc="528da705" name="1h_1_10.bin"></part>
+
+		<part crc="5a4b17ea" name="12.chr"></part>
+		<part crc="70df525c" name="9.chr"></part>
+		<part crc="e0edccbd" name="11.chr"></part>
+		<part crc="6a0c7d87" name="l06_prom.bin"></part>
 	</rom>
 </misterromdescription>

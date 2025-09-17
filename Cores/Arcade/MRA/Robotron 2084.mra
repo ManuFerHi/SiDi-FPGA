@@ -7,21 +7,19 @@
     <buttons default="Start,Select" names="-,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>0</part></rom>
     <rom index="0" zip="robotron.zip" md5="1d2f8e7d602ec2f848bad17f3cf928e2" type="merged">
-	<part name="robotron.sb1"/>
-	<part name="robotron.sb2"/>
-	<part name="robotron.sb3"/>
-	<part name="robotron.sb4"/>
-	<part name="robotron.sb5"/>
-	<part name="robotron.sb6"/>
-	<part name="robotron.sb7"/>
-	<part name="robotron.sb8"/>
-	<part name="robotron.sb9"/>
-	<part name="robotron.sba"/>
-	<part name="robotron.sbb"/>
-	<part name="robotron.sbc"/>
-
-	<part name="robotron.snd"/>
-
+	<part crc="66c7d3ef" name="robotron.sb1"></part>
+	<part crc="5bc6c614" name="robotron.sb2"></part>
+	<part crc="e99a82be" name="robotron.sb3"></part>
+	<part crc="afb1c561" name="robotron.sb4"></part>
+	<part crc="62691e77" name="robotron.sb5"></part>
+	<part crc="bd2c853d" name="robotron.sb6"></part>
+	<part crc="49ac400c" name="robotron.sb7"></part>
+	<part crc="3a96e88c" name="robotron.sb8"></part>
+	<part crc="b124367b" name="robotron.sb9"></part>
+	<part crc="13797024" name="robotron.sba"></part>
+	<part crc="7e3c1b87" name="robotron.sbb"></part>
+	<part crc="645d543e" name="robotron.sbc"></part>
+	<part crc="c56c1d28" name="robotron.snd"></part>
 	<part>
 		02 25 00 03 00 03 00 01 00 04 00 01 00 01 00 00 
 		00 00 00 01 00 03 00 03 00 00 00 00 00 00 00 00 

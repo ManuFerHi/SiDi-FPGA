@@ -7,20 +7,19 @@
     <buttons default="B,Start,Select" names="Flap,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>1</part></rom>
     <rom index="0" zip="joust.zip" md5="190c1b26e2103232a58405f8ebdd752c" type="merged">
-	<part name="3006-13.1b"/>
-	<part name="3006-14.2b"/>
-	<part name="3006-15.3b"/>
-	<part name="3006-16.4b"/>
-	<part name="3006-17.5b"/>
-	<part name="3006-18.6b"/>
-	<part name="3006-19.7b"/>
-	<part name="3006-20.8b"/>
-	<part name="3006-21.9b"/>
-	<part name="3006-22.10b"/>
-	<part name="3006-23.11b"/>
-	<part name="3006-24.12b"/>
-
-	<part name="joust.snd"/>
+	<part crc="fe41b2af" name="3006-13.1b"></part>
+	<part crc="501c143c" name="3006-14.2b"></part>
+	<part crc="43f7161d" name="3006-15.3b"></part>
+	<part crc="db5571b6" name="3006-16.4b"></part>
+	<part crc="c686bb6b" name="3006-17.5b"></part>
+	<part crc="fac5f2cf" name="3006-18.6b"></part>
+	<part crc="81418240" name="3006-19.7b"></part>
+	<part crc="ba5359ba" name="3006-20.8b"></part>
+	<part crc="39643147" name="3006-21.9b"></part>
+	<part crc="3f1c4f89" name="3006-22.10b"></part>
+	<part crc="ea48b359" name="3006-23.11b"></part>
+	<part crc="c710717b" name="3006-24.12b"></part>
+	<part crc="f1835bdd" name="joust.snd"></part>
 
 	<part>
 		f2 00 00 f5 00 f1 00 f3 00 f1 00 f4 00 f1 00 f1 

@@ -15,7 +15,7 @@
   </switches>
 
   <rom index="1"><part>0</part></rom>
-  <rom index="0" zip="xevious.zip" md5="1b707668eb52408088e47c0f823f9fed">
+  <rom index="0" zip="xevious.zip" md5="0612c417d582ea490f6338835389c9df">
     <!-- CPU1 -->
     <part name="xvi_1.3p"/>
     <part name="xvi_2.3m"/>

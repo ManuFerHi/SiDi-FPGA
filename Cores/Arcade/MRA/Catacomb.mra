@@ -15,7 +15,7 @@
 	<rom index="1">
 		<part>04</part>
 	</rom>
-	<rom index="0" zip="catacomb.zip" md5="a9c00095b4ccb5183445aa9e67c873af" type="merged|nonmerged">
+	<rom index="0" zip="catacomb.zip" md5="f7dbbaaf96650e542fc7405f1288e716" type="merged|nonmerged">
 		<part crc="35cc28d2" name="catacomb.u"/>
 		<part crc="1d1ce133" name="catacomb.v"/>
 		<part crc="479bbde7" name="catacomb.w"/>
@@ -28,6 +28,6 @@
 		<part crc="e871e65c" name="cat-gfx1"/>
 		<part crc="b14dafaa" name="cat-gfx2"/>
 		<part crc="b14dafaa" name="cat-gfx2"/>
-		<part crc="6a0c7d87" name="mmi6331.6l"/>
+		<part crc="7e0b79cb" name="mmi6331.6l"/>
 	</rom>
 </misterromdescription>

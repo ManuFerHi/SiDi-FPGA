@@ -6,6 +6,7 @@
 	<manufacturer>Universal</manufacturer>
 	<category>Platform</category>
 	<rbf>cosmic</rbf>
+	<setname>panic</setname>
 	<buttons names="Dig,Fill,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L"/>
 	<switches default="00,00,00" base="8">
 		<dip bits="0,2"   name="Coinage"     ids="1 Coin 1 Credit, 1 Coin 2 Credits, 1 Coin 3 Credits, 1 Coin 4 Credits, 1 Coin 5 Credits, 2 Coins 3 Credits"/>

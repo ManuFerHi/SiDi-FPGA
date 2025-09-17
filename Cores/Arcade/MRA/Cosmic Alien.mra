@@ -6,6 +6,7 @@
 	<manufacturer>Universal</manufacturer>
 	<category>Space</category>
 	<rbf>cosmic</rbf>
+	<setname>cosmica</setname>
 	<buttons names="Fire,-,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L"/>
 	<switches default="00,00,00" base="8">
 		<dip bits="0"     	name="Cabinet"     ids="Upright,Cocktail"/>

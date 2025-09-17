@@ -7,20 +7,21 @@
     <buttons default="Start,Select" names="-,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>2</part></rom>
     <rom index="0" zip="splat.zip" md5="401f6ca6baac2701f84a0edc6bea69ab" type="merged">
-	<part name="splat.01"/>
-	<part name="splat.02"/>
-	<part name="splat.03"/>
-	<part name="splat.04"/>
-	<part name="splat.05"/>
-	<part name="splat.06"/>
-	<part name="splat.07"/>
-	<part name="splat.08"/>
-	<part name="splat.09"/>
-	<part name="splat.10"/>
-	<part name="splat.11"/>
-	<part name="splat.12"/>
 
-	<part name="splat.snd"/>
+	<part name="splat.01" crc="1cf26e48"/>
+	<part name="splat.02" crc="ac0d4276"/>
+	<part name="splat.03" crc="74873e59"/>
+	<part name="splat.04" crc="70a7064e"/>
+	<part name="splat.05" crc="c6895221"/>
+	<part name="splat.06" crc="ea4ab7fd"/>
+	<part name="splat.07" crc="82fd8713"/>
+	<part name="splat.08" crc="7dded1b4"/>
+	<part name="splat.09" crc="71cbfe5a"/>
+	<part name="splat.10" crc="d1a1f632"/>
+	<part name="splat.11" crc="ca8cde95"/>
+	<part name="splat.12" crc="5bee3e60"/>
+
+	<part name="splat.snd" crc="a878d5f3"/>
 
 	<part>
 03 30 00 03 02 25 00 03 00 01 00 04 00 01 00 01

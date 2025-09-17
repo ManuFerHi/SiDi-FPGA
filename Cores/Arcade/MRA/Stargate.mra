@@ -7,21 +7,20 @@
     <buttons default="B,A,X,Y,L,R,Start,Select" names="Reverse,Thrust,Fire,Hyperspace,Smart Bomb,Inviso,Start,Coin,P2 Start,-"></buttons>
     <rom index="1"><part>4</part></rom>
     <rom index="0" zip="stargate.zip" md5="764a1192d52ef54eead60849d11dfcaa" type="merged">
-	<part name="01"/>
-	<part name="02"/>
-	<part name="03"/>
-	<part name="04"/>
-	<part name="05"/>
-	<part name="06"/>
-	<part name="07"/>
-	<part name="08"/>
-	<part name="09"/>
-	<part name="10"/>
-	<part name="11"/>
-	<part name="12"/>
-
-	<part name="sg.snd"/>
-	<part name="sg.snd"/>
+	<part crc="88824d18" name="01"></part>
+	<part crc="afc614c5" name="02"></part>
+	<part crc="15077a9d" name="03"></part>
+	<part crc="a8b4bf0f" name="04"></part>
+	<part crc="2d306074" name="05"></part>
+	<part crc="53598dde" name="06"></part>
+	<part crc="23606060" name="07"></part>
+	<part crc="4ec490c7" name="08"></part>
+	<part crc="88187b64" name="09"></part>
+	<part crc="60b07ff7" name="10"></part>
+	<part crc="7d2c5daf" name="11"></part>
+	<part crc="a0396670" name="12"></part>
+	<part crc="2fcf6c4d" name="sg.snd"></part>
+	<part crc="2fcf6c4d" name="sg.snd"></part>
 	<part>
 01 10 00 03 00 07 00 03 00 01 00 04 00 01 00 01
 00 00 00 00 00 00 00 03 00 05 03 30 00 00 00 00

@@ -1,5 +1,10 @@
 For update your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
 
+## firmware_250921
+------------------
+- Enhance core_mod to 63 bits
+- Fix analog joystick range calculation
+
 ## firmware_250907
 ------------------
 - CFG_FILE_N option to arc files for Minimig (Eugene Lozovoy)

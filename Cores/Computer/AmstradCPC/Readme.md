@@ -19,7 +19,7 @@ This core has been started as a port of [CoreAmstrad by Renaud Hélias](https://
 * Tape input through UART header (MiST)
 * Support *.CDT tape files.
 * Tape output through speaker.
-
+* Dandanator mini support.
 
 ## Installation
 place RBF and **amstrad.rom** into root of SD card. Or on **MiSTer** you can rename ROM to boot.rom and put it into Amstrad folder.

@@ -1,5 +1,14 @@
 For update your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
 
+
+## firmware_260214
+------------------
+- Make the USB configuration descriptor Win11 friendly
+- Menu page plugin support (Manuel Teira)
+- Info menu support for cores (Manuel Teira)
+- Serial sink support (Manuel Teira)
+- 8BitDo M30 2.4G identification and some improvements to joystick setup menu (Eugene Azarov)
+
 ## firmware_250921
 ------------------
 - Enhance core_mod to 63 bits

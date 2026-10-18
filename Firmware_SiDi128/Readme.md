@@ -1,5 +1,12 @@
 For update your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
 
+## firmware_261018
+------------------
+- user_io API allows to use multi-sector transfers.
+- Allow access to USB serial for all cores, configurable from mist.ini (rkrajc).
+- Add 'X' config string option for Toggle and Exit.
+- MegaCD support (tdelage)
+- FTP server support (tdelage)
 
 ## firmware_260214
 ------------------

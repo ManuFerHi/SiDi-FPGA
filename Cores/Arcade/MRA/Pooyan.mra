@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Pooyan</name>
+	<mameversion>0220</mameversion>
+	<setname>pooyan</setname>
+	<mratimestamp>20261004000000</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Shoot'em Up</category>
+	<rbf>pooyan</rbf>
+	<rotation>vertical (cw)</rotation>
+	<num_buttons>1</num_buttons>
+	<buttons default="B,Start,Select" names="Fire,-,-,-,-,-,Start,Coin,P2 Start,-"></buttons>
+	<rom index="0" zip="pooyan.zip">
+		<!-- Main CPU 32k (the only ROM loaded from SD; gfx, PROMs and sound CPU ROM are embedded in the core) -->
+		<part crc="bb319c63" name="1.4a"/>
+		<part crc="a1463d98" name="2.5a"/>
+		<part crc="fe1a9e08" name="3.6a"/>
+		<part crc="9e0f9bcc" name="4.7a"/>
+	</rom>
+</misterromdescription>

@@ -1,5 +1,11 @@
 For update your SiDi128 copy firmware_xxxxxx.upg to root sd card and rename it to firmware.upg, start yor SiDi128 and select in OSD upgrade firmware.
 
+## firmware_261108
+------------------
+- Toggle video modes in OSD core menu & system menu with F5 and F6 (retrofun)
+- Fix partial sector reads/write at the end of a file (affects .D64)
+- Sega Saturn support (tdelage)
+
 ## firmware_261018
 ------------------
 - user_io API allows to use multi-sector transfers.
